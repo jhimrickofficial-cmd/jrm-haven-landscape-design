@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@300;400;500&amp;family=Sora:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-bright":"#333a42","surface-dim":"#0d141b","tertiary-container":"#5290f3","on-error":"#690005","tertiary":"#abc7ff","inverse-primary":"#0058cc","on-primary-fixed-variant":"#00419c","tertiary-fixed":"#d7e2ff","primary-container":"#568dff","on-primary":"#002c6f","surface":"#0d141b","secondary":"#9dd84f","error":"#ffb4ab","tertiary-fixed-dim":"#abc7ff","inverse-surface":"#dce3ed","on-secondary-container":"#1b2f00","primary-fixed":"#d9e2ff","on-tertiary-container":"#002859","background":"#0d141b","on-surface-variant":"#c2c6d7","surface-tint":"#b0c6ff","on-surface":"#dce3ed","inverse-on-surface":"#2a3139","outline":"#8c90a0","on-secondary-fixed":"#112000","primary-fixed-dim":"#b0c6ff","on-error-container":"#ffdad6","surface-container-lowest":"#080f16","on-secondary":"#203600","surface-container-high":"#242b32","surface-container":"#192028","secondary-container":"#6aa018","error-container":"#93000a","outline-variant":"#424655","on-tertiary-fixed":"#001b3f","on-background":"#dce3ed","surface-container-low":"#151c24","secondary-fixed":"#b8f568","on-tertiary-fixed-variant":"#00458f","on-secondary-fixed-variant":"#304f00","primary":"#b0c6ff","surface-variant":"#2e353d","on-primary-container":"#002662","surface-container-highest":"#2e353d","on-primary-fixed":"#001945","secondary-fixed-dim":"#9dd84f","on-tertiary":"#002f66"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-2xl":"5rem","margin-tablet":"3rem","margin-desktop":"5rem","space-md":"1.25rem","space-lg":"2.25rem","margin":"1.5rem","space-sm":"0.75rem","space-xs":"0.375rem","space-xl":"3.5rem","gutter-mobile":"1rem","gutter":"1.5rem","gutter-desktop":"2.5rem","margin-mobile":"1.25rem"},fontFamily:{"display-hero":["Sora"],"display-hero-mobile":["Sora"],"headline-lg-mobile":["Sora"],"label-md":["Outfit"],"body-xl":["Plus Jakarta Sans"],"headline-xl-mobile":["Sora"],"label-lg":["Outfit"],"headline-md":["Sora"],"body-lg":["Plus Jakarta Sans"],"label-caps":["Outfit"],"body-md":["Plus Jakarta Sans"],"headline-xl":["Sora"],"headline-lg":["Sora"],"headline-sm":["Sora"]},fontSize:{"display-hero":["72px",{lineHeight:"80px",letterSpacing:"-0.03em",fontWeight:"600"}],"display-hero-mobile":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"600"}],"headline-lg-mobile":["24px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"500"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.06em",fontWeight:"500"}],"body-xl":["20px",{lineHeight:"32px",letterSpacing:"0em",fontWeight:"300"}],"headline-xl-mobile":["32px",{lineHeight:"40px",letterSpacing:"-0.01em",fontWeight:"500"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.04em",fontWeight:"500"}],"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"500"}],"body-lg":["16px",{lineHeight:"26px",letterSpacing:"0.01em",fontWeight:"400"}],"label-caps":["11px",{lineHeight:"16px",letterSpacing:"0.12em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"22px",letterSpacing:"0.01em",fontWeight:"400"}],"headline-xl":["48px",{lineHeight:"56px",letterSpacing:"-0.02em",fontWeight:"500"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.015em",fontWeight:"500"}],"headline-sm":["20px",{lineHeight:"28px",letterSpacing:"0em",fontWeight:"600"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-secondary/30 selection:text-secondary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/75 backdrop-blur-2xl shadow-[0_1px_12px_rgba(0,0,0,0.2)]"><div class="h-20 w-full max-w-7xl mx-auto px-margin md:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary"><span class="material-symbols-outlined text-headline-sm">nature</span></div><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface">Haven</span></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-secondary font-medium"><a aria-current="page" class="transition-colors duration-200 text-secondary font-medium" data-path="landscape-architecture-haven" href="#hero">Hero</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors duration-200" data-path="about" href="#about">About</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors duration-200" data-path="services" href="#services">Services</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors duration-200" data-path="showcase" href="#showcase">Showcase</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors duration-200" data-path="reviews" href="#reviews">Reviews</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors duration-200" data-path="contact" href="#contact">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center font-label-lg text-label-lg px-space-md py-space-xs rounded-lg bg-primary-container text-on-primary-container hover:bg-tertiary-container hover:text-on-primary transition-all duration-300" data-path="consultation-booking" href="#consultation">Schedule Consultation</a><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1XZXjPXHJtwIB7ov-iMu-PUtF1p1GSwSY6w8Q7I_UPc9MeiLqaVrLlTA_H9FeOQ2bkp0PmE8zT51XAIa504_g0haAdpkliHx7Us9fKkpewPmjTOZM_RqN6FLv_1N-_GaBoNS0766cBKlm37s-EBM-wJXruvvdCxCoaAYMcpx9rTW2GwOTkB3lbQG6QCHx-LMCPSRTwFEfBy9fJhSrLhPetahVJCmcNVm4xEWJ_mH--IY_1E63aSNXCYoSA"/></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full relative">
+<!-- Interactive Top Scroll Indicator -->
+<div class="fixed top-0 left-0 h-1 bg-secondary z-[60] w-0 transition-all duration-150 ease-out shadow-[0_0_12px_rgba(157,216,79,0.8)]" id="scroll-progress"></div>
+<!-- SECTION 1: HERO -->
+<section class="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden py-space-xl lg:py-space-2xl" id="hero">
+<!-- Atmospheric Ambient Lighting Blooms -->
+<div class="absolute -top-32 -left-32 w-96 h-96 bg-primary-container/15 rounded-full blur-[120px] pointer-events-none"></div>
+<div class="absolute top-1/2 -right-24 w-[30rem] h-[30rem] bg-secondary/10 rounded-full blur-[140px] pointer-events-none"></div>
+<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Hero Copy -->
+<div class="lg:col-span-6 flex flex-col items-start gap-space-md">
+<!-- Brand Mark / Logo Placement -->
+<div class="w-48 sm:w-56 mb-space-xs">
+<img alt="Haven Landscape Design Logo" class="w-full h-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA176EvZ3PhPeptq1aEs8fBav7oNaUhQsRR82MNYVcxAlwM33u9vfgcc8AYjrOQfX6zhNjA39n9xFiq7dzWG1QNL1E6eNA-dVHXh5Mcbx1BERhuVjlw8SQHCif5t-4ecZqTj7oSJwgGoEx4JF80ofvcqYUWfB8V_3QzKT2enXlcLgl8lV_Hky-pgefZaLOtSk8ao1-ffzZaPkvGMkcR3xbQexCBglnAYOWzj0aVIiMY5KuJii4JRVaqoQ"/>
+</div>
+<!-- Eyebrow Pill -->
+<div class="inline-flex items-center gap-space-xs px-space-sm py-1.5 rounded-full bg-surface-container-high/80 backdrop-blur-md">
+<span class="w-2 h-2 rounded-full bg-secondary animate-pulse shadow-[0_0_8px_rgba(157,216,79,1)]"></span>
+<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Bespoke Landscape Architecture &amp; Living Sanctuaries</span>
+</div>
+<!-- Main Title -->
+<h1 class="font-display-hero text-headline-xl lg:text-display-hero text-on-surface tracking-tight">
+            Curating Living Havens With <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-fixed to-secondary">Natural Precision.</span>
+</h1>
+<!-- Lead Paragraph -->
+<p class="font-body-xl text-body-lg lg:text-body-xl text-on-surface-variant max-w-xl">
+            Architectural greenery, sculptural outdoor living spaces, and turnkey landscape design tailored for modern estates.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-sm w-full sm:w-auto pt-space-xs">
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-gradient-to-r from-primary-container to-inverse-primary text-on-surface font-label-lg text-label-lg shadow-lg shadow-primary-container/20 hover:scale-[1.02] hover:shadow-primary-container/35 transition-all duration-300" href="#contact">
+<span>Schedule Design Consultation</span>
+<span class="material-symbols-outlined text-body-lg">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-surface-container/60 hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg backdrop-blur-md transition-all duration-300" href="#showcase">
+<span class="material-symbols-outlined text-secondary text-body-lg">architecture</span>
+<span>Explore Curated Folio</span>
+</a>
+</div>
+<!-- Credential Metas -->
+<div class="grid grid-cols-3 gap-space-sm pt-space-md w-full border-t border-surface-variant/40 mt-space-sm">
+<div>
+<p class="font-headline-md text-headline-md text-secondary">15+</p>
+<p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Years Crafting</p>
+</div>
+<div>
+<p class="font-headline-md text-headline-md text-on-surface">100%</p>
+<p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Native &amp; Adaptive</p>
+</div>
+<div>
+<p class="font-headline-md text-headline-md text-secondary">5.0 ★</p>
+<p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Client Rating</p>
+</div>
+</div>
+</div>
+<!-- Hero Architectural Showcase Visual Frame -->
+<div class="lg:col-span-6 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-container-low group">
+<div class="aspect-[16/11] w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Bespoke luxury architectural twilight garden with ambient stepped LED illumination, natural honed stone steps, mature Japanese maples, a sunken reflection pool, and an open glass modern pavilion with warm firelight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvfjCnyxVXVm32-49yJah-UD2UIZhlJdL6ovOdIpCIxeZ-wmC_xtCc8fTtvJ2gcN_PftEepoWJRaTjogXgISNJWoHJciWm-F1cxo8-xTMmqjAIaArK9RvEiPfvIn-rk3vo10lYaE4ks7NKW2Nz9Wu9_Khfhf4XfSuYt5NcQ-hI7r8ZL91nwDBZk0tOm8WBZEioOqS688Da9vnvIGvAM4zKZ8qOZNN473TeXerJhZhI"/>
+</div>
+<!-- Frost Overlay Card: Floating Architecture Spec Indicator -->
+<div class="absolute bottom-4 left-4 right-4 p-space-md rounded-xl bg-surface-container-lowest/85 backdrop-blur-xl shadow-xl flex items-center justify-between">
+<div class="flex items-center gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-secondary/15 flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined">water_drop</span>
+</div>
+<div>
+<p class="font-headline-sm text-label-lg text-on-surface">The Obsidian Sanctuary</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Reflection Basin &amp; Tiered Limestone</p>
+</div>
+</div>
+<span class="font-label-caps text-label-caps px-space-xs py-1 rounded bg-secondary/20 text-secondary uppercase font-semibold">Live Project</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: ABOUT / PHILOSOPHY -->
+<section class="w-full py-space-2xl bg-surface-container-low/40 relative" id="about">
+<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
+<!-- Visual Column with Overlap Badge -->
+<div class="lg:col-span-6 order-2 lg:order-1 relative">
+<div class="rounded-2xl overflow-hidden shadow-xl bg-surface-container relative group">
+<div class="aspect-[16/10] w-full overflow-hidden">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Dramatic hillside landscape architecture at dusk with floating travertine cantilevered stairs illuminated by hidden under-step warm LED strip lighting, dry-stacked natural rock terraces, native tussock grasses, and mountain horizon vista" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGZyKib9MCzce4JUN-9w2HXN-Tbx_ozz7ScK7bj-oxz4oH08vzJeJxigBvcnFFVi2DAfPJXKjoHzluh82uOfJ5iurV70M6JV3F9EObRXxlUlJJXv20lN4d7eScttok8ZG6fsaU63z0X9v_4NSC9gndiuA5LIQb_HKck7KnVNEw5tejqo7Dbz-_0yTMb94DFqbKtIYWgIyWaQZuWUw6_LxusR8kC91xtgQ0zgTWTdVA"/>
+</div>
+</div>
+<!-- Overlaid Craft Metric Card -->
+<div class="hidden sm:flex absolute -bottom-8 -right-6 p-space-md rounded-xl bg-surface-container-high/90 backdrop-blur-xl shadow-2xl max-w-xs items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-headline-lg">verified</span>
+<div>
+<p class="font-headline-sm text-body-lg text-on-surface">Precision Masonry</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Dry-stacked stone engineering built to endure generations.</p>
+</div>
+</div>
+</div>
+<!-- Content Column -->
+<div class="lg:col-span-6 order-1 lg:order-2 flex flex-col gap-space-md">
+<div class="inline-flex items-center gap-space-xs text-secondary font-label-caps text-label-caps tracking-widest uppercase">
+<span class="material-symbols-outlined text-body-md">spa</span>
+<span>Design Philosophy</span>
+</div>
+<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl text-on-surface tracking-tight">
+            Sculpting Harmony Between Architecture &amp; Nature.
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
+            At Haven Landscape Design, we believe outdoor spaces should be tranquil extensions of the home. We weave native botanicals, natural stonework, and subtle ambient lighting into living works of art that respond dynamically to diurnal shifts and changing seasons.
+          </p>
+<!-- 3 Craft Pillars -->
+<div class="grid grid-cols-1 gap-space-sm pt-space-xs">
+<div class="flex items-start gap-space-sm p-space-sm rounded-xl bg-surface-container/60 hover:bg-surface-container transition-colors duration-200">
+<div class="w-10 h-10 rounded-lg bg-primary-container/20 text-primary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">psychology</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-body-lg text-on-surface">Biophilic Precision</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Ecological selection matrix designed to enrich local biodiversity while offering effortless seasonal interest.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded-xl bg-surface-container/60 hover:bg-surface-container transition-colors duration-200">
+<div class="w-10 h-10 rounded-lg bg-secondary/20 text-secondary flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">handyman</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-body-lg text-on-surface">Turnkey Groundworks</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">From complex contour grading and structural earth retention to hydraulic balance and electrical master controls.</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm p-space-sm rounded-xl bg-surface-container/60 hover:bg-surface-container transition-colors duration-200">
+<div class="w-10 h-10 rounded-lg bg-primary-fixed-dim/20 text-primary-fixed flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined">foundation</span>
+</div>
+<div>
+<h3 class="font-headline-sm text-body-lg text-on-surface">Enduring Stone Craft</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Honed travertine, hand-cut granite, and cantilevered slabs finished to tactile perfection with flush water drains.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: SERVICES -->
+<section class="w-full py-space-2xl relative" id="services">
+<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div class="max-w-2xl">
+<div class="inline-flex items-center gap-space-xs text-secondary font-label-caps text-label-caps tracking-widest uppercase mb-space-xs">
+<span class="material-symbols-outlined text-body-md">layers</span>
+<span>Disciplines</span>
+</div>
+<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl text-on-surface tracking-tight">
+            Tailored Landscape Architecture Disciplines
+          </h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+          A coherent synthesis of living horticulture, geological material engineering, and intelligent nocturnal atmosphere.
+        </p>
+</div>
+<!-- 4 Interactive Discipline Cards -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- Service 1 -->
+<div class="group p-space-lg rounded-2xl bg-surface-container/70 hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between shadow-lg hover:-translate-y-1">
+<div>
+<div class="w-12 h-12 rounded-xl bg-secondary/15 text-secondary flex items-center justify-center mb-space-md group-hover:bg-secondary group-hover:text-surface transition-colors duration-300">
+<span class="material-symbols-outlined text-headline-md">potted_plant</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Architectural Botanical Gardens</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Curated native flora, specimen Japanese maples, sculptural agaves, and four-season textural plantings.</p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant/40 flex items-center justify-between text-secondary font-label-lg text-label-lg">
+<span>Botanical Matrix</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Service 2 -->
+<div class="group p-space-lg rounded-2xl bg-surface-container/70 hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between shadow-lg hover:-translate-y-1">
+<div>
+<div class="w-12 h-12 rounded-xl bg-primary-container/20 text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors duration-300">
+<span class="material-symbols-outlined text-headline-md">stairs</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Bespoke Hardscaping &amp; Terracing</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Natural travertine pavers, cantilevered floating steps, engineered retaining systems, and open-air loggias.</p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant/40 flex items-center justify-between text-primary font-label-lg text-label-lg">
+<span>Structural Stone</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Service 3 -->
+<div class="group p-space-lg rounded-2xl bg-surface-container/70 hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between shadow-lg hover:-translate-y-1">
+<div>
+<div class="w-12 h-12 rounded-xl bg-secondary/15 text-secondary flex items-center justify-center mb-space-md group-hover:bg-secondary group-hover:text-surface transition-colors duration-300">
+<span class="material-symbols-outlined text-headline-md">local_fire_department</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Water Elements &amp; Fire Sanctuaries</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Mirror reflection pools, sheer descent water features, natural gas linear burners, and sunken conversation lounges.</p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant/40 flex items-center justify-between text-secondary font-label-lg text-label-lg">
+<span>Element Synthesis</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+<!-- Service 4 -->
+<div class="group p-space-lg rounded-2xl bg-surface-container/70 hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between shadow-lg hover:-translate-y-1">
+<div>
+<div class="w-12 h-12 rounded-xl bg-primary-container/20 text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors duration-300">
+<span class="material-symbols-outlined text-headline-md">wb_twilight</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Smart Irrigation &amp; Illumination</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Concealed architectural 2700K warm LED lighting systems and climate-adaptive sensor-driven irrigation networks.</p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant/40 flex items-center justify-between text-primary font-label-lg text-label-lg">
+<span>Automation &amp; Light</span>
+<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: SHOWCASE / FOLIO -->
+<section class="w-full py-space-2xl bg-surface-container-low/30 relative" id="showcase">
+<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
+<div>
+<div class="inline-flex items-center gap-space-xs text-secondary font-label-caps text-label-caps tracking-widest uppercase mb-space-xs">
+<span class="material-symbols-outlined text-body-md">photo_camera</span>
+<span>Select Portfolio</span>
+</div>
+<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl text-on-surface tracking-tight">
+            Curated Grounds &amp; Recent Havens
+          </h2>
+</div>
+<div class="flex items-center gap-space-xs">
+<span class="px-space-sm py-1 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md">All Works</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:text-on-surface cursor-pointer">Estate Hardscaping</span>
+<span class="px-space-sm py-1 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:text-on-surface cursor-pointer">Water &amp; Fire</span>
+</div>
+</div>
+<!-- 4 Showcase Cards Mosaic -->
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
+<!-- Card 1 -->
+<div class="group rounded-2xl overflow-hidden bg-surface-container shadow-xl flex flex-col transition-all duration-300 hover:shadow-2xl">
+<div class="aspect-[16/10] w-full overflow-hidden relative">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="High-end modern private garden with illuminated travertine steps leading past a mirror-finish pool with cascade waterfall to an outdoor living terrace with a fire table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpXzlvwMG6_Jd8zb2pBshVygFYDF0-DnrMBzx52rjmlfQoIdFwclDq9rqHdvas0L6gxd0evBRUFIra61QjHb3Pg34ueNBdPQ2PjgHLJcT6Xrjeo_BIpEYXen4vyHX4bVUvmeEgH2DHoy4glG5kaEIiMlX4iMyRvGBQmR8UJGvnlKb_La-7hzKKc40evQ8CF9eApNE5rEBQP3mAGnKVVt-CnDCJNMSaZgy-8VA9j9YD"/>
+<div class="absolute top-4 left-4">
+<span class="px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-caps text-label-caps tracking-wider uppercase font-semibold">Residential Estate</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-1">Toorak, Victoria</p>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors">The Obsidian Sanctuary</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">Lush botanical retreat, cascading weir pool, and sunken hearth lounge enveloped by multi-tiered Japanese Maples.</p>
+</div>
+<div class="flex flex-wrap gap-2 pt-space-md mt-space-md border-t border-surface-variant/40">
+<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Reflection Pool</span>
+<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Acer Palmatum</span>
+<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Travertine Slabs</span>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group rounded-2xl overflow-hidden bg-surface-container shadow-xl flex flex-col transition-all duration-300 hover:shadow-2xl">
+<div class="aspect-[16/10] w-full overflow-hidden relative">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Dramatic hillside landscape with tiered cantilevered floating stone steps with hidden warm glow lights, dry stone retaining walls, and scenic sunset mountain valley horizon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtDrkR_ZFxO9PgoV-bHJFRm8TMpk_STgNRBa02KBR7aOhptljEeBRaZ1eky3Xe5JMh60KLk4pSV-939eBQJ3MQHFE9fsLKO47y6uMS5XqitJBxvdfcTOIrudW4CcUVd-_0hLREwSjRh26kha1mQv_aZgec25EOi0PidgUkhdfAeuPLFz2lFd2FrYCLFN5s0wn3Rp17J8D_5x37GTww-DRWNDCoU8Q7itoYRYC3G9em"/>
+<div class="absolute top-4 left-4">
+<span class="px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-caps text-label-caps tracking-wider uppercase font-semibold">Terraced Hillside</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-1">Adelaide Hills, SA</p>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Crafers Terraced Hillside</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">Floating honed travertine, ambient cantilever step illumination, and dry-stacked stone retaining overlooking the valley.</p>
+</div>
+<div class="flex flex-wrap gap-2 pt-space-md mt-space-md border-t border-surface-variant/40">
+<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Cantilever Stairs</span>
+<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Dry Stack Stone</span>
+<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Hillside Stabilization</span>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group rounded-2xl overflow-hidden bg-surface-container shadow-xl flex flex-col transition-all duration-300 hover:shadow-2xl">
+<div class="aspect-[16/10] w-full overflow-hidden relative">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Architectural modern outdoor timber pavilion with slatted screening, alfresco kitchen BBQ, swimming pool, firepit, and architectural lighting at blue hour dusk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDR3yu1e-BKF5nLv8sRcV43dmYetTRnBjGBPVQ_6qHGeRQ1gmk-BhbaJhSam1qzoDFBllM0ouvAg2Bjrd7m9K5Z09FTVTzEsQNhi9_BNLGJxu5ldyqUKm-VnngCBOs10DKRjIN8ysZSELjGFx7DGXViXmCJnP54gsYA3Js2xIenNfq0sZOnN3C-BntRhhQH8H3gK8lfEZWpsM0bF7YnbT018_9iq77OTRb6VD1FKvxE"/>
+<div class="absolute top-4 left-4">
+<span class="px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-caps text-label-caps tracking-wider uppercase font-semibold">Alfresco Living</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-1">Unley Park, SA</p>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors">Unley Park Modern Pavilion</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">Spotted gum vertical timber battens, outdoor culinary kitchen, lap pool integration, and drought-resilient architectural agaves.</p>
+</div>
+<div class="flex flex-wrap gap-2 pt-space-md mt-space-md border-t border-surface-variant/40">
+<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Spotted Gum</span>
+<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Outdoor Kitchen</span>
+<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Lap Pool</span>
+</div>
+</div>
+</div>
+<!-- Card 4 -->
+<div class="group rounded-2xl overflow-hidden bg-surface-container shadow-xl flex flex-col transition-all duration-300 hover:shadow-2xl">
+<div class="aspect-[16/10] w-full overflow-hidden relative">
+<img alt="Sun Valley Turnkey Estate Architecture" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" src="https://lh3.googleusercontent.com/aida/AEtjO1VXkBri7sKtxqQ-vkHE3fO1hUtmQ-teIWNd2sEyf6pzMfC_o5VKnED00eOttn9_pc-CBDDB25WHZiomndl5eg-mypOoWBBR6ZBJ-HZIdHMGdr2lTNvJwe6SVN5Ig2VLV-Tr5LwGKpRfSkIr4pO8jx0Hk84w1GIAeVqbpln88vV1HmDe6cRPoR6FdqjbBjT7Ypjshz25KYGPDfERE4A34FneqEnSD51g-H5MdeD5ahF3-A"/>
+<div class="absolute top-4 left-4">
+<span class="px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-caps text-label-caps tracking-wider uppercase font-semibold">Turnkey Masterplan</span>
+</div>
+</div>
+<div class="p-space-lg flex flex-col justify-between flex-grow">
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-1">Sun Valley, Idaho</p>
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Sun Valley Turnkey Estate</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">Panoramic indoor-outdoor botanical terrace connecting floor-to-ceiling glass architecture with curated alpine gardens.</p>
+</div>
+<div class="flex flex-wrap gap-2 pt-space-md mt-space-md border-t border-surface-variant/40">
+<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Alpine Botany</span>
+<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Glass Transition</span>
+<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Master Planning</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: REVIEWS -->
+<section class="w-full py-space-2xl relative" id="reviews">
+<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop">
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<div class="inline-flex items-center gap-space-xs text-secondary font-label-caps text-label-caps tracking-widest uppercase mb-space-xs">
+<span class="material-symbols-outlined text-body-md">rate_review</span>
+<span>Client Testimonials</span>
+</div>
+<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl text-on-surface tracking-tight">
+          Trusted by Discerning Homeowners &amp; Architects
+        </h2>
+</div>
+<!-- 3 Minimalist Reviews Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
+<!-- Review 1 -->
+<div class="p-space-lg rounded-2xl bg-surface-container/60 hover:bg-surface-container transition-colors duration-300 flex flex-col justify-between shadow-lg">
+<div>
+<div class="flex items-center gap-1 text-secondary mb-space-md">
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic leading-relaxed">
+              “Haven transformed our sloped backyard into an absolute private paradise. The nocturnal lighting scheme and floating stonework are breathtaking.”
+            </p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant/40">
+<p class="font-headline-sm text-body-lg text-on-surface">Julian &amp; Claire Vance</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Private Estate, Toorak</p>
+</div>
+</div>
+<!-- Review 2 -->
+<div class="p-space-lg rounded-2xl bg-surface-container/60 hover:bg-surface-container transition-colors duration-300 flex flex-col justify-between shadow-lg">
+<div>
+<div class="flex items-center gap-1 text-secondary mb-space-md">
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic leading-relaxed">
+              “Incredible eye for native plantings and architectural balance. The team executed every detail with surgical precision and clear communication throughout.”
+            </p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant/40">
+<p class="font-headline-sm text-body-lg text-on-surface">Dr. Marcus Sterling</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Architectural Client, Crafers</p>
+</div>
+</div>
+<!-- Review 3 -->
+<div class="p-space-lg rounded-2xl bg-surface-container/60 hover:bg-surface-container transition-colors duration-300 flex flex-col justify-between shadow-lg">
+<div>
+<div class="flex items-center gap-1 text-secondary mb-space-md">
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-lg text-body-lg text-on-surface italic leading-relaxed">
+              “From first concept sketch to final stone placement, Haven delivered pure luxury and absolute peace of mind. A rare standard of craftsmanship.”
+            </p>
+</div>
+<div class="pt-space-md mt-space-md border-t border-surface-variant/40">
+<p class="font-headline-sm text-body-lg text-on-surface">Elena Rostova</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Modernist Residence, Unley</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 6: CONTACT & CONSULTATION -->
+<section class="w-full py-space-2xl bg-surface-container-lowest/60 relative" id="contact">
+<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop">
+<div class="max-w-2xl mb-space-xl">
+<div class="inline-flex items-center gap-space-xs text-secondary font-label-caps text-label-caps tracking-widest uppercase mb-space-xs">
+<span class="material-symbols-outlined text-body-md">edit_calendar</span>
+<span>Consultation Enquiries</span>
+</div>
+<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl text-on-surface tracking-tight">
+          Begin Your Outdoor Transformation
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-2">
+          Reserve an on-site master planning consultation with our senior landscape architects.
+        </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
+<!-- Left Column: Contact Details + Stylized Map Element -->
+<div class="lg:col-span-5 flex flex-col justify-between gap-space-lg">
+<div class="space-y-space-md">
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined">call</span>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Studio Direct</p>
+<a class="font-headline-sm text-headline-sm text-on-surface hover:text-secondary transition-colors" href="tel:5557829364">(555) 782-9364</a>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary shrink-0">
+<span class="material-symbols-outlined">schedule</span>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Practice Hours</p>
+<p class="font-body-lg text-body-lg text-on-surface">Monday – Friday: 8:00 AM – 5:30 PM</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Saturday by appointment</p>
+</div>
+</div>
+<div class="flex items-start gap-space-sm">
+<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
+<span class="material-symbols-outlined">pin_drop</span>
+</div>
+<div>
+<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Service Regions</p>
+<p class="font-body-lg text-body-lg text-on-surface">Serving Premier Estates, Coastal Properties &amp; Hillside Sanctuaries</p>
+</div>
+</div>
+</div>
+<!-- Stylized Dark Map Preview Card -->
+<div class="rounded-2xl overflow-hidden bg-surface-container shadow-xl relative">
+<div class="w-full h-56 bg-cover bg-center" data-location="Adelaide, South Australia" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC3myVjH6SFzWeHnhkLeqwSuQgWewHX2sp9e-F5SSUp6_pbDRflgpo_y-J-WU2UBbNlBt047CCGNw921kMNKsVdMDfEjQtJv5xu96oiqvP1h9l3ZZjxzTOgbn8K4-wIjtJqr4ze4Q74ouFiRhMu13JInJXMnp277EJJisTEGIJJIq3_vJEyprcK85gTiX1Y2KluII5vf8RiHoLa0nsDJncvsYPlsve8zs8pvPaxZZ8n')"></div>
+<div class="absolute bottom-3 left-3 right-3 p-space-sm rounded-lg bg-surface-container-lowest/85 backdrop-blur-md flex items-center justify-between">
+<div class="flex items-center gap-space-xs">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
+<span class="font-label-md text-label-md text-on-surface">Head Studio &amp; Nursery Matrix</span>
+</div>
+<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Adelaide, SA</span>
+</div>
+</div>
+</div>
+<!-- Right Column: Interactive Consultation Form -->
+<div class="lg:col-span-7">
+<form class="p-space-lg lg:p-space-xl rounded-2xl bg-surface-container/80 backdrop-blur-xl shadow-2xl flex flex-col gap-space-md" id="consultation-form" onsubmit="event.preventDefault(); showConfirmation();">
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="name">Full Name *</label>
+<input class="w-full px-space-sm py-2.5 rounded-lg bg-surface-container-low/70 text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-high focus:outline-none focus:ring-1 focus:ring-primary font-body-md text-body-md transition-all" id="name" placeholder="e.g. Alistair Ross" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="phone">Phone Number *</label>
+<input class="w-full px-space-sm py-2.5 rounded-lg bg-surface-container-low/70 text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-high focus:outline-none focus:ring-1 focus:ring-primary font-body-md text-body-md transition-all" id="phone" placeholder="(555) 000-0000" required="" type="tel"/>
+</div>
+</div>
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="address">Estate Address / Suburb *</label>
+<input class="w-full px-space-sm py-2.5 rounded-lg bg-surface-container-low/70 text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-high focus:outline-none focus:ring-1 focus:ring-primary font-body-md text-body-md transition-all" id="address" placeholder="e.g. Springfield Avenue" required="" type="text"/>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="scope">Project Scope</label>
+<select class="w-full px-space-sm py-2.5 rounded-lg bg-surface-container-low/70 text-on-surface focus:bg-surface-container-high focus:outline-none focus:ring-1 focus:ring-primary font-body-md text-body-md transition-all" id="scope">
+<option class="bg-surface-container">Full Turnkey Masterplan ($50k+)</option>
+<option class="bg-surface-container">Architectural Hardscape &amp; Terraces</option>
+<option class="bg-surface-container">Pool, Water Feature &amp; Fire Lounge</option>
+<option class="bg-surface-container">Botanical Curated Planting &amp; Lighting</option>
+</select>
+</div>
+</div>
+<div class="flex flex-col gap-1.5">
+<label class="font-label-md text-label-md text-on-surface font-medium" for="message">Project Description &amp; Vision</label>
+<textarea class="w-full px-space-sm py-2.5 rounded-lg bg-surface-container-low/70 text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-high focus:outline-none focus:ring-1 focus:ring-primary font-body-md text-body-md transition-all" id="message" placeholder="Detail your property topography, architectural vision, desired features, or key requirements..." rows="4"></textarea>
+</div>
+<button class="w-full inline-flex items-center justify-center gap-space-xs py-space-sm px-space-lg rounded-lg bg-gradient-to-r from-primary-container to-inverse-primary text-on-surface font-label-lg text-label-lg shadow-lg shadow-primary-container/25 hover:shadow-primary-container/40 hover:scale-[1.01] transition-all duration-300" type="submit">
+<span>Submit Design Request</span>
+<span class="material-symbols-outlined text-body-lg">send</span>
+</button>
+<!-- Success notification box -->
+<div class="hidden p-space-sm rounded-lg bg-secondary/15 text-secondary items-center gap-space-xs" id="form-success">
+<span class="material-symbols-outlined">check_circle</span>
+<span class="font-body-md text-body-md">Thank you. A landscape architect will contact you within 24 hours to schedule the initial on-site brief.</span>
+</div>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Scroll Behavior & Scroll-Spy Script -->
+<script>
+    // 1. Scroll Progress Bar
+    window.addEventListener('scroll', () => {
+      const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (winScroll / height) * 100;
+      const progress = document.getElementById('scroll-progress');
+      if (progress) {
+        progress.style.width = scrolled + '%';
+      }
+    });
+
+    // 2. Form submission micro-interaction
+    function showConfirmation() {
+      const successBox = document.getElementById('form-success');
+      if (successBox) {
+        successBox.classList.remove('hidden');
+        successBox.classList.add('flex');
+      }
+    }
+
+    // 3. Intersection Observer for Header Navigation Active State
+    const navLinks = document.querySelectorAll('header nav a');
+    const sections = document.querySelectorAll('section[id]');
+    
+    if (sections.length > 0 && navLinks.length > 0) {
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute('id');
+            navLinks.forEach((link) => {
+              if (link.getAttribute('href') === '#' + id) {
+                link.classList.add('text-secondary');
+                link.classList.remove('text-on-surface-variant');
+              } else {
+                link.classList.remove('text-secondary');
+                link.classList.add('text-on-surface-variant');
+              }
+            });
+          }
+        });
+      }, { rootMargin: '-20% 0px -70% 0px' });
+
+      sections.forEach((sec) => observer.observe(sec));
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest py-space-xl"><div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop"><div class="grid grid-cols-1 md:grid-cols-4 gap-space-lg mb-space-xl"><div class="space-y-space-sm md:col-span-2"><div class="flex items-center gap-space-xs"><div class="w-7 h-7 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary"><span class="material-symbols-outlined text-body-md">nature</span></div><span class="font-headline-sm text-headline-sm text-on-surface">Haven</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Architectural landscape design merging ecological balance with refined structural minimalism. Creating living sanctuaries that evolve across seasons.</p></div><div><h4 class="font-label-caps text-label-caps uppercase text-secondary mb-space-sm">Architecture</h4><ul class="space-y-space-xs font-body-md text-body-md text-on-surface-variant"><li><a class="hover:text-on-surface transition-colors" href="#services">Master Planning</a></li><li><a class="hover:text-on-surface transition-colors" href="#services">Biophilic Integration</a></li><li><a class="hover:text-on-surface transition-colors" href="#services">Botanical Curation</a></li><li><a class="hover:text-on-surface transition-colors" href="#showcase">Material Matrix</a></li></ul></div><div><h4 class="font-label-caps text-label-caps uppercase text-secondary mb-space-sm">Studio</h4><ul class="space-y-space-xs font-body-md text-body-md text-on-surface-variant"><li><a class="hover:text-on-surface transition-colors" href="#about">Philosophy</a></li><li><a class="hover:text-on-surface transition-colors" href="#reviews">Client Journals</a></li><li><a class="hover:text-on-surface transition-colors" href="#contact">Site Enquiries</a></li><li><a class="hover:text-on-surface transition-colors" href="#consultation">Consultation</a></li></ul></div></div><div class="flex flex-col sm:flex-row items-center justify-between pt-space-md gap-space-sm"><span class="font-body-md text-body-md text-on-surface-variant">© 2025 Haven Landscape Architecture Studio. All rights reserved.</span><div class="flex items-center gap-space-md font-label-md text-label-md text-on-surface-variant"><a class="hover:text-on-surface transition-colors" href="#">Environmental Codex</a><a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" href="#">Terms of Practice</a></div></div></div></footer></body></html>
