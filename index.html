@@ -1,563 +1,107 @@
-<!DOCTYPE html><html class="dark" lang="en"><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@300;400;500&amp;family=Sora:wght@400;500;600&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-bright":"#333a42","surface-dim":"#0d141b","tertiary-container":"#5290f3","on-error":"#690005","tertiary":"#abc7ff","inverse-primary":"#0058cc","on-primary-fixed-variant":"#00419c","tertiary-fixed":"#d7e2ff","primary-container":"#568dff","on-primary":"#002c6f","surface":"#0d141b","secondary":"#9dd84f","error":"#ffb4ab","tertiary-fixed-dim":"#abc7ff","inverse-surface":"#dce3ed","on-secondary-container":"#1b2f00","primary-fixed":"#d9e2ff","on-tertiary-container":"#002859","background":"#0d141b","on-surface-variant":"#c2c6d7","surface-tint":"#b0c6ff","on-surface":"#dce3ed","inverse-on-surface":"#2a3139","outline":"#8c90a0","on-secondary-fixed":"#112000","primary-fixed-dim":"#b0c6ff","on-error-container":"#ffdad6","surface-container-lowest":"#080f16","on-secondary":"#203600","surface-container-high":"#242b32","surface-container":"#192028","secondary-container":"#6aa018","error-container":"#93000a","outline-variant":"#424655","on-tertiary-fixed":"#001b3f","on-background":"#dce3ed","surface-container-low":"#151c24","secondary-fixed":"#b8f568","on-tertiary-fixed-variant":"#00458f","on-secondary-fixed-variant":"#304f00","primary":"#b0c6ff","surface-variant":"#2e353d","on-primary-container":"#002662","surface-container-highest":"#2e353d","on-primary-fixed":"#001945","secondary-fixed-dim":"#9dd84f","on-tertiary":"#002f66"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"space-2xl":"5rem","margin-tablet":"3rem","margin-desktop":"5rem","space-md":"1.25rem","space-lg":"2.25rem","margin":"1.5rem","space-sm":"0.75rem","space-xs":"0.375rem","space-xl":"3.5rem","gutter-mobile":"1rem","gutter":"1.5rem","gutter-desktop":"2.5rem","margin-mobile":"1.25rem"},fontFamily:{"display-hero":["Sora"],"display-hero-mobile":["Sora"],"headline-lg-mobile":["Sora"],"label-md":["Outfit"],"body-xl":["Plus Jakarta Sans"],"headline-xl-mobile":["Sora"],"label-lg":["Outfit"],"headline-md":["Sora"],"body-lg":["Plus Jakarta Sans"],"label-caps":["Outfit"],"body-md":["Plus Jakarta Sans"],"headline-xl":["Sora"],"headline-lg":["Sora"],"headline-sm":["Sora"]},fontSize:{"display-hero":["72px",{lineHeight:"80px",letterSpacing:"-0.03em",fontWeight:"600"}],"display-hero-mobile":["40px",{lineHeight:"48px",letterSpacing:"-0.02em",fontWeight:"600"}],"headline-lg-mobile":["24px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"500"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.06em",fontWeight:"500"}],"body-xl":["20px",{lineHeight:"32px",letterSpacing:"0em",fontWeight:"300"}],"headline-xl-mobile":["32px",{lineHeight:"40px",letterSpacing:"-0.01em",fontWeight:"500"}],"label-lg":["14px",{lineHeight:"20px",letterSpacing:"0.04em",fontWeight:"500"}],"headline-md":["24px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"500"}],"body-lg":["16px",{lineHeight:"26px",letterSpacing:"0.01em",fontWeight:"400"}],"label-caps":["11px",{lineHeight:"16px",letterSpacing:"0.12em",fontWeight:"600"}],"body-md":["14px",{lineHeight:"22px",letterSpacing:"0.01em",fontWeight:"400"}],"headline-xl":["48px",{lineHeight:"56px",letterSpacing:"-0.02em",fontWeight:"500"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.015em",fontWeight:"500"}],"headline-sm":["20px",{lineHeight:"28px",letterSpacing:"0em",fontWeight:"600"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-secondary/30 selection:text-secondary-fixed"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/75 backdrop-blur-2xl shadow-[0_1px_12px_rgba(0,0,0,0.2)]"><div class="h-20 w-full max-w-7xl mx-auto px-margin md:px-margin-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><div class="w-9 h-9 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary"><span class="material-symbols-outlined text-headline-sm">nature</span></div><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface">Haven</span></div><nav class="hidden lg:flex items-center gap-space-lg" data-active-classes="text-secondary font-medium"><a aria-current="page" class="transition-colors duration-200 text-secondary font-medium" data-path="landscape-architecture-haven" href="#hero">Hero</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors duration-200" data-path="about" href="#about">About</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors duration-200" data-path="services" href="#services">Services</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors duration-200" data-path="showcase" href="#showcase">Showcase</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors duration-200" data-path="reviews" href="#reviews">Reviews</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors duration-200" data-path="contact" href="#contact">Contact</a></nav><div class="flex items-center gap-space-md"><a class="hidden sm:inline-flex items-center justify-center font-label-lg text-label-lg px-space-md py-space-xs rounded-lg bg-primary-container text-on-primary-container hover:bg-tertiary-container hover:text-on-primary transition-all duration-300" data-path="consultation-booking" href="#consultation">Schedule Consultation</a></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full relative">
-<!-- Interactive Top Scroll Indicator -->
-<div class="fixed top-0 left-0 h-1 bg-secondary z-[60] w-0 transition-all duration-150 ease-out shadow-[0_0_12px_rgba(157,216,79,0.8)]" id="scroll-progress"></div>
-<!-- SECTION 1: HERO -->
-<section class="relative w-full min-h-[90vh] flex items-center justify-center overflow-hidden py-space-xl lg:py-space-2xl" id="hero">
-<!-- Atmospheric Ambient Lighting Blooms -->
-<div class="absolute -top-32 -left-32 w-96 h-96 bg-primary-container/15 rounded-full blur-[120px] pointer-events-none"></div>
-<div class="absolute top-1/2 -right-24 w-[30rem] h-[30rem] bg-secondary/10 rounded-full blur-[140px] pointer-events-none"></div>
-<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop relative z-10">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
-<!-- Hero Copy -->
-<div class="lg:col-span-6 flex flex-col items-start gap-space-md">
-<!-- Brand Mark / Logo Placement -->
-<div class="w-48 sm:w-56 mb-space-xs">
-<img alt="Haven Landscape Design Logo" class="w-full h-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA176EvZ3PhPeptq1aEs8fBav7oNaUhQsRR82MNYVcxAlwM33u9vfgcc8AYjrOQfX6zhNjA39n9xFiq7dzWG1QNL1E6eNA-dVHXh5Mcbx1BERhuVjlw8SQHCif5t-4ecZqTj7oSJwgGoEx4JF80ofvcqYUWfB8V_3QzKT2enXlcLgl8lV_Hky-pgefZaLOtSk8ao1-ffzZaPkvGMkcR3xbQexCBglnAYOWzj0aVIiMY5KuJii4JRVaqoQ">
-</div>
-<!-- Eyebrow Pill -->
-<div class="inline-flex items-center gap-space-xs px-space-sm py-1.5 rounded-full bg-surface-container-high/80 backdrop-blur-md">
-<span class="w-2 h-2 rounded-full bg-secondary animate-pulse shadow-[0_0_8px_rgba(157,216,79,1)]"></span>
-<span class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">Bespoke Landscape Architecture &amp; Living Sanctuaries</span>
-</div>
-<!-- Main Title -->
-<h1 class="font-display-hero text-headline-xl lg:text-display-hero text-on-surface tracking-tight">
-            Curating Living Havens With <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary-fixed to-secondary">Natural Precision.</span>
-</h1>
-<!-- Lead Paragraph -->
-<p class="font-body-xl text-body-lg lg:text-body-xl text-on-surface-variant max-w-xl">
-            Architectural greenery, sculptural outdoor living spaces, and turnkey landscape design tailored for modern estates.
-          </p>
-<!-- CTAs -->
-<div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-space-sm w-full sm:w-auto pt-space-xs">
-<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-gradient-to-r from-primary-container to-inverse-primary text-on-surface font-label-lg text-label-lg shadow-lg shadow-primary-container/20 hover:scale-[1.02] hover:shadow-primary-container/35 transition-all duration-300" href="#contact">
-<span class="">Schedule Design Consultation</span>
-<span class="material-symbols-outlined text-body-lg">arrow_forward</span>
-</a>
-<a class="inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-surface-container/60 hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg backdrop-blur-md transition-all duration-300" href="#showcase">
-<span class="material-symbols-outlined text-secondary text-body-lg">architecture</span>
-<span class="">Explore Curated Folio</span>
-</a>
-</div>
-<!-- Credential Metas -->
-<div class="grid grid-cols-3 gap-space-sm pt-space-md w-full border-t border-surface-variant/40 mt-space-sm">
-<div>
-<p class="font-headline-md text-headline-md text-secondary">15+</p>
-<p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Years Crafting</p>
-</div>
-<div>
-<p class="font-headline-md text-headline-md text-on-surface">100%</p>
-<p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Native &amp; Adaptive</p>
-</div>
-<div>
-<p class="font-headline-md text-headline-md text-secondary">5.0 ★</p>
-<p class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Client Rating</p>
-</div>
-</div>
-</div>
-<!-- Hero Architectural Showcase Visual Frame -->
-<div class="lg:col-span-6 relative">
-<div class="relative rounded-2xl overflow-hidden shadow-2xl bg-surface-container-low group">
-<div class="aspect-[16/11] w-full overflow-hidden">
-<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Bespoke luxury architectural twilight garden with ambient stepped LED illumination, natural honed stone steps, mature Japanese maples, a sunken reflection pool, and an open glass modern pavilion with warm firelight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBvfjCnyxVXVm32-49yJah-UD2UIZhlJdL6ovOdIpCIxeZ-wmC_xtCc8fTtvJ2gcN_PftEepoWJRaTjogXgISNJWoHJciWm-F1cxo8-xTMmqjAIaArK9RvEiPfvIn-rk3vo10lYaE4ks7NKW2Nz9Wu9_Khfhf4XfSuYt5NcQ-hI7r8ZL91nwDBZk0tOm8WBZEioOqS688Da9vnvIGvAM4zKZ8qOZNN473TeXerJhZhI">
-</div>
-<!-- Frost Overlay Card: Floating Architecture Spec Indicator -->
-<div class="absolute bottom-4 left-4 right-4 p-space-md rounded-xl bg-surface-container-lowest/85 backdrop-blur-xl shadow-xl flex items-center justify-between">
-<div class="flex items-center gap-space-sm">
-<div class="w-10 h-10 rounded-lg bg-secondary/15 flex items-center justify-center text-secondary">
-<span class="material-symbols-outlined">water_drop</span>
-</div>
-<div>
-<p class="font-headline-sm text-label-lg text-on-surface">The Obsidian Sanctuary</p>
-<p class="font-label-md text-label-md text-on-surface-variant">Reflection Basin &amp; Tiered Limestone</p>
-</div>
-</div>
-<span class="font-label-caps text-label-caps px-space-xs py-1 rounded bg-secondary/20 text-secondary uppercase font-semibold">Live Project</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- SECTION 2: ABOUT / PHILOSOPHY -->
-<section class="w-full py-space-2xl bg-surface-container-low/40 relative" id="about">
-<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl items-center">
-<!-- Visual Column with Overlap Badge -->
-<div class="lg:col-span-6 order-2 lg:order-1 relative">
-<div class="rounded-2xl overflow-hidden shadow-xl bg-surface-container relative group">
-<div class="aspect-[16/10] w-full overflow-hidden">
-<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="Dramatic hillside landscape architecture at dusk with floating travertine cantilevered stairs illuminated by hidden under-step warm LED strip lighting, dry-stacked natural rock terraces, native tussock grasses, and mountain horizon vista" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBGZyKib9MCzce4JUN-9w2HXN-Tbx_ozz7ScK7bj-oxz4oH08vzJeJxigBvcnFFVi2DAfPJXKjoHzluh82uOfJ5iurV70M6JV3F9EObRXxlUlJJXv20lN4d7eScttok8ZG6fsaU63z0X9v_4NSC9gndiuA5LIQb_HKck7KnVNEw5tejqo7Dbz-_0yTMb94DFqbKtIYWgIyWaQZuWUw6_LxusR8kC91xtgQ0zgTWTdVA">
-</div>
-</div>
-<!-- Overlaid Craft Metric Card -->
-<div class="hidden sm:flex absolute -bottom-8 -right-6 p-space-md rounded-xl bg-surface-container-high/90 backdrop-blur-xl shadow-2xl max-w-xs items-center gap-space-sm">
-<span class="material-symbols-outlined text-secondary text-headline-lg">verified</span>
-<div>
-<p class="font-headline-sm text-body-lg text-on-surface">Precision Masonry</p>
-<p class="font-label-md text-label-md text-on-surface-variant">Dry-stacked stone engineering built to endure generations.</p>
-</div>
-</div>
-</div>
-<!-- Content Column -->
-<div class="lg:col-span-6 order-1 lg:order-2 flex flex-col gap-space-md">
-<div class="inline-flex items-center gap-space-xs text-secondary font-label-caps text-label-caps tracking-widest uppercase">
-<span class="material-symbols-outlined text-body-md">spa</span>
-<span class="">Design Philosophy</span>
-</div>
-<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl text-on-surface tracking-tight">
-            Sculpting Harmony Between Architecture &amp; Nature.
-          </h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed">
-            At Haven Landscape Design, we believe outdoor spaces should be tranquil extensions of the home. We weave native botanicals, natural stonework, and subtle ambient lighting into living works of art that respond dynamically to diurnal shifts and changing seasons.
-          </p>
-<!-- 3 Craft Pillars -->
-<div class="grid grid-cols-1 gap-space-sm pt-space-xs">
-<div class="flex items-start gap-space-sm p-space-sm rounded-xl bg-surface-container/60 hover:bg-surface-container transition-colors duration-200">
-<div class="w-10 h-10 rounded-lg bg-primary-container/20 text-primary flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined">psychology</span>
-</div>
-<div>
-<h3 class="font-headline-sm text-body-lg text-on-surface">Biophilic Precision</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Ecological selection matrix designed to enrich local biodiversity while offering effortless seasonal interest.</p>
-</div>
-</div>
-<div class="flex items-start gap-space-sm p-space-sm rounded-xl bg-surface-container/60 hover:bg-surface-container transition-colors duration-200">
-<div class="w-10 h-10 rounded-lg bg-secondary/20 text-secondary flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined">handyman</span>
-</div>
-<div>
-<h3 class="font-headline-sm text-body-lg text-on-surface">Turnkey Groundworks</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">From complex contour grading and structural earth retention to hydraulic balance and electrical master controls.</p>
-</div>
-</div>
-<div class="flex items-start gap-space-sm p-space-sm rounded-xl bg-surface-container/60 hover:bg-surface-container transition-colors duration-200">
-<div class="w-10 h-10 rounded-lg bg-primary-fixed-dim/20 text-primary-fixed flex items-center justify-center shrink-0">
-<span class="material-symbols-outlined">foundation</span>
-</div>
-<div>
-<h3 class="font-headline-sm text-body-lg text-on-surface">Enduring Stone Craft</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Honed travertine, hand-cut granite, and cantilevered slabs finished to tactile perfection with flush water drains.</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- SECTION 3: SERVICES -->
-<section class="w-full py-space-2xl relative" id="services">
-<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop">
-<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
-<div class="max-w-2xl">
-<div class="inline-flex items-center gap-space-xs text-secondary font-label-caps text-label-caps tracking-widest uppercase mb-space-xs">
-<span class="material-symbols-outlined text-body-md">layers</span>
-<span class="">Disciplines</span>
-</div>
-<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl text-on-surface tracking-tight">
-            Tailored Landscape Architecture Disciplines
-          </h2>
-</div>
-<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
-          A coherent synthesis of living horticulture, geological material engineering, and intelligent nocturnal atmosphere.
-        </p>
-</div>
-<!-- 4 Interactive Discipline Cards -->
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-space-md">
-<!-- Service 1 -->
-<div class="group p-space-lg rounded-2xl bg-surface-container/70 hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between shadow-lg hover:-translate-y-1">
-<div>
-<div class="w-12 h-12 rounded-xl bg-secondary/15 text-secondary flex items-center justify-center mb-space-md group-hover:bg-secondary group-hover:text-surface transition-colors duration-300">
-<span class="material-symbols-outlined text-headline-md">potted_plant</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Architectural Botanical Gardens</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Curated native flora, specimen Japanese maples, sculptural agaves, and four-season textural plantings.</p>
-</div>
-<div class="pt-space-md mt-space-md border-t border-surface-variant/40 flex items-center justify-between text-secondary font-label-lg text-label-lg">
-<span class="">Botanical Matrix</span>
-<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
-</div>
-</div>
-<!-- Service 2 -->
-<div class="group p-space-lg rounded-2xl bg-surface-container/70 hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between shadow-lg hover:-translate-y-1">
-<div>
-<div class="w-12 h-12 rounded-xl bg-primary-container/20 text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors duration-300">
-<span class="material-symbols-outlined text-headline-md">stairs</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Bespoke Hardscaping &amp; Terracing</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Natural travertine pavers, cantilevered floating steps, engineered retaining systems, and open-air loggias.</p>
-</div>
-<div class="pt-space-md mt-space-md border-t border-surface-variant/40 flex items-center justify-between text-primary font-label-lg text-label-lg">
-<span class="">Structural Stone</span>
-<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
-</div>
-</div>
-<!-- Service 3 -->
-<div class="group p-space-lg rounded-2xl bg-surface-container/70 hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between shadow-lg hover:-translate-y-1">
-<div>
-<div class="w-12 h-12 rounded-xl bg-secondary/15 text-secondary flex items-center justify-center mb-space-md group-hover:bg-secondary group-hover:text-surface transition-colors duration-300">
-<span class="material-symbols-outlined text-headline-md">local_fire_department</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Water Elements &amp; Fire Sanctuaries</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Mirror reflection pools, sheer descent water features, natural gas linear burners, and sunken conversation lounges.</p>
-</div>
-<div class="pt-space-md mt-space-md border-t border-surface-variant/40 flex items-center justify-between text-secondary font-label-lg text-label-lg">
-<span class="">Element Synthesis</span>
-<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
-</div>
-</div>
-<!-- Service 4 -->
-<div class="group p-space-lg rounded-2xl bg-surface-container/70 hover:bg-surface-container-high transition-all duration-300 flex flex-col justify-between shadow-lg hover:-translate-y-1">
-<div>
-<div class="w-12 h-12 rounded-xl bg-primary-container/20 text-primary flex items-center justify-center mb-space-md group-hover:bg-primary-container group-hover:text-on-primary-container transition-colors duration-300">
-<span class="material-symbols-outlined text-headline-md">wb_twilight</span>
-</div>
-<h3 class="font-headline-sm text-headline-sm text-on-surface mb-space-xs">Smart Irrigation &amp; Illumination</h3>
-<p class="font-body-md text-body-md text-on-surface-variant">Concealed architectural 2700K warm LED lighting systems and climate-adaptive sensor-driven irrigation networks.</p>
-</div>
-<div class="pt-space-md mt-space-md border-t border-surface-variant/40 flex items-center justify-between text-primary font-label-lg text-label-lg">
-<span class="">Automation &amp; Light</span>
-<span class="material-symbols-outlined group-hover:translate-x-1 transition-transform">arrow_forward</span>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- SECTION 4: SHOWCASE / FOLIO -->
-<section class="w-full py-space-2xl bg-surface-container-low/30 relative" id="showcase">
-<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop">
-<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-md mb-space-xl">
-<div>
-<div class="inline-flex items-center gap-space-xs text-secondary font-label-caps text-label-caps tracking-widest uppercase mb-space-xs">
-<span class="material-symbols-outlined text-body-md">photo_camera</span>
-<span class="">Select Portfolio</span>
-</div>
-<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl text-on-surface tracking-tight">
-            Curated Grounds &amp; Recent Havens
-          </h2>
-</div>
-<div class="flex items-center gap-space-xs">
-<span class="px-space-sm py-1 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md">All Works</span>
-<span class="px-space-sm py-1 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:text-on-surface cursor-pointer">Estate Hardscaping</span>
-<span class="px-space-sm py-1 rounded-full bg-surface-container text-on-surface-variant font-label-md text-label-md hover:text-on-surface cursor-pointer">Water &amp; Fire</span>
-</div>
-</div>
-<!-- 4 Showcase Cards Mosaic -->
-<div class="grid grid-cols-1 md:grid-cols-2 gap-space-lg">
-<!-- Card 1 -->
-<div class="group rounded-2xl overflow-hidden bg-surface-container shadow-xl flex flex-col transition-all duration-300 hover:shadow-2xl">
-<div class="aspect-[16/10] w-full overflow-hidden relative">
-<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="High-end modern private garden with illuminated travertine steps leading past a mirror-finish pool with cascade waterfall to an outdoor living terrace with a fire table" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpXzlvwMG6_Jd8zb2pBshVygFYDF0-DnrMBzx52rjmlfQoIdFwclDq9rqHdvas0L6gxd0evBRUFIra61QjHb3Pg34ueNBdPQ2PjgHLJcT6Xrjeo_BIpEYXen4vyHX4bVUvmeEgH2DHoy4glG5kaEIiMlX4iMyRvGBQmR8UJGvnlKb_La-7hzKKc40evQ8CF9eApNE5rEBQP3mAGnKVVt-CnDCJNMSaZgy-8VA9j9YD">
-<div class="absolute top-4 left-4">
-<span class="px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-caps text-label-caps tracking-wider uppercase font-semibold">Residential Estate</span>
-</div>
-</div>
-<div class="p-space-lg flex flex-col justify-between flex-grow">
-<div>
-<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-1">Toorak, Victoria</p>
-<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors">The Obsidian Sanctuary</h3>
-<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">Lush botanical retreat, cascading weir pool, and sunken hearth lounge enveloped by multi-tiered Japanese Maples.</p>
-</div>
-<div class="flex flex-wrap gap-2 pt-space-md mt-space-md border-t border-surface-variant/40">
-<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Reflection Pool</span>
-<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Acer Palmatum</span>
-<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Travertine Slabs</span>
-</div>
-</div>
-</div>
-<!-- Card 2 -->
-<div class="group rounded-2xl overflow-hidden bg-surface-container shadow-xl flex flex-col transition-all duration-300 hover:shadow-2xl">
-<div class="aspect-[16/10] w-full overflow-hidden relative">
-<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Dramatic hillside landscape with tiered cantilevered floating stone steps with hidden warm glow lights, dry stone retaining walls, and scenic sunset mountain valley horizon" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDtDrkR_ZFxO9PgoV-bHJFRm8TMpk_STgNRBa02KBR7aOhptljEeBRaZ1eky3Xe5JMh60KLk4pSV-939eBQJ3MQHFE9fsLKO47y6uMS5XqitJBxvdfcTOIrudW4CcUVd-_0hLREwSjRh26kha1mQv_aZgec25EOi0PidgUkhdfAeuPLFz2lFd2FrYCLFN5s0wn3Rp17J8D_5x37GTww-DRWNDCoU8Q7itoYRYC3G9em">
-<div class="absolute top-4 left-4">
-<span class="px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-caps text-label-caps tracking-wider uppercase font-semibold">Terraced Hillside</span>
-</div>
-</div>
-<div class="p-space-lg flex flex-col justify-between flex-grow">
-<div>
-<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-1">Adelaide Hills, SA</p>
-<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Crafers Terraced Hillside</h3>
-<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">Floating honed travertine, ambient cantilever step illumination, and dry-stacked stone retaining overlooking the valley.</p>
-</div>
-<div class="flex flex-wrap gap-2 pt-space-md mt-space-md border-t border-surface-variant/40">
-<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Cantilever Stairs</span>
-<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Dry Stack Stone</span>
-<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Hillside Stabilization</span>
-</div>
-</div>
-</div>
-<!-- Card 3 -->
-<div class="group rounded-2xl overflow-hidden bg-surface-container shadow-xl flex flex-col transition-all duration-300 hover:shadow-2xl">
-<div class="aspect-[16/10] w-full overflow-hidden relative">
-<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Architectural modern outdoor timber pavilion with slatted screening, alfresco kitchen BBQ, swimming pool, firepit, and architectural lighting at blue hour dusk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDR3yu1e-BKF5nLv8sRcV43dmYetTRnBjGBPVQ_6qHGeRQ1gmk-BhbaJhSam1qzoDFBllM0ouvAg2Bjrd7m9K5Z09FTVTzEsQNhi9_BNLGJxu5ldyqUKm-VnngCBOs10DKRjIN8ysZSELjGFx7DGXViXmCJnP54gsYA3Js2xIenNfq0sZOnN3C-BntRhhQH8H3gK8lfEZWpsM0bF7YnbT018_9iq77OTRb6VD1FKvxE">
-<div class="absolute top-4 left-4">
-<span class="px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-secondary font-label-caps text-label-caps tracking-wider uppercase font-semibold">Alfresco Living</span>
-</div>
-</div>
-<div class="p-space-lg flex flex-col justify-between flex-grow">
-<div>
-<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-1">Unley Park, SA</p>
-<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-secondary transition-colors">Unley Park Modern Pavilion</h3>
-<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">Spotted gum vertical timber battens, outdoor culinary kitchen, lap pool integration, and drought-resilient architectural agaves.</p>
-</div>
-<div class="flex flex-wrap gap-2 pt-space-md mt-space-md border-t border-surface-variant/40">
-<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Spotted Gum</span>
-<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Outdoor Kitchen</span>
-<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Lap Pool</span>
-</div>
-</div>
-</div>
-<!-- Card 4 -->
-<div class="group rounded-2xl overflow-hidden bg-surface-container shadow-xl flex flex-col transition-all duration-300 hover:shadow-2xl">
-<div class="aspect-[16/10] w-full overflow-hidden relative">
-<img alt="Sun Valley Turnkey Estate Architecture" class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBC1iA_UrxVsavx5qcTlvoe-E-8uXMagVKJ2c2b1HmUa4kh6eGCQPUHDuoRglhSIXWrrG-K7lB2eH7SmHlIxw7u4qPJn626QnAkh-OoMEaKcCiyvhDKtbEPjaILZtSWyOrBE1rJDkf-WmFCFJ-gm8ZgO6SC0G6iuUaW8dX1c8nXfAk4iLjM2Qr5p8oNUyjbS7_JvBIlPsQOlAdp3dVh3r-EcbchzczYr4vGhoiBXJR3">
-<div class="absolute top-4 left-4">
-<span class="px-space-sm py-1 rounded-full bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-caps text-label-caps tracking-wider uppercase font-semibold">Turnkey Masterplan</span>
-</div>
-</div>
-<div class="p-space-lg flex flex-col justify-between flex-grow">
-<div>
-<p class="font-label-caps text-label-caps text-on-surface-variant uppercase tracking-wider mb-1">Sun Valley, Idaho</p>
-<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Sun Valley Turnkey Estate</h3>
-<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">Panoramic indoor-outdoor botanical terrace connecting floor-to-ceiling glass architecture with curated alpine gardens.</p>
-</div>
-<div class="flex flex-wrap gap-2 pt-space-md mt-space-md border-t border-surface-variant/40">
-<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Alpine Botany</span>
-<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Glass Transition</span>
-<span class="font-label-md text-label-md px-2.5 py-1 rounded bg-surface-container-high text-on-surface-variant">Master Planning</span>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- SECTION 5: REVIEWS -->
-<section class="w-full py-space-2xl relative" id="reviews">
-<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop">
-<div class="text-center max-w-2xl mx-auto mb-space-xl">
-<div class="inline-flex items-center gap-space-xs text-secondary font-label-caps text-label-caps tracking-widest uppercase mb-space-xs">
-<span class="material-symbols-outlined text-body-md">rate_review</span>
-<span class="">Client Testimonials</span>
-</div>
-<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl text-on-surface tracking-tight">
-          Trusted by Discerning Homeowners &amp; Architects
-        </h2>
-</div>
-<!-- 3 Minimalist Reviews Cards -->
-<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg">
-<!-- Review 1 -->
-<div class="p-space-lg rounded-2xl bg-surface-container/60 hover:bg-surface-container transition-colors duration-300 flex flex-col justify-between shadow-lg">
-<div>
-<div class="flex items-center gap-1 text-secondary mb-space-md">
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-</div>
-<p class="font-body-lg text-body-lg text-on-surface italic leading-relaxed">
-              “Haven transformed our sloped backyard into an absolute private paradise. The nocturnal lighting scheme and floating stonework are breathtaking.”
-            </p>
-</div>
-<div class="pt-space-md mt-space-md border-t border-surface-variant/40">
-<p class="font-headline-sm text-body-lg text-on-surface">Julian &amp; Claire Vance</p>
-<p class="font-label-md text-label-md text-on-surface-variant">Private Estate, Toorak</p>
-</div>
-</div>
-<!-- Review 2 -->
-<div class="p-space-lg rounded-2xl bg-surface-container/60 hover:bg-surface-container transition-colors duration-300 flex flex-col justify-between shadow-lg">
-<div>
-<div class="flex items-center gap-1 text-secondary mb-space-md">
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-</div>
-<p class="font-body-lg text-body-lg text-on-surface italic leading-relaxed">
-              “Incredible eye for native plantings and architectural balance. The team executed every detail with surgical precision and clear communication throughout.”
-            </p>
-</div>
-<div class="pt-space-md mt-space-md border-t border-surface-variant/40">
-<p class="font-headline-sm text-body-lg text-on-surface">Dr. Marcus Sterling</p>
-<p class="font-label-md text-label-md text-on-surface-variant">Architectural Client, Crafers</p>
-</div>
-</div>
-<!-- Review 3 -->
-<div class="p-space-lg rounded-2xl bg-surface-container/60 hover:bg-surface-container transition-colors duration-300 flex flex-col justify-between shadow-lg">
-<div>
-<div class="flex items-center gap-1 text-secondary mb-space-md">
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-<span class="material-symbols-outlined text-headline-sm" style="font-variation-settings: 'FILL' 1;">star</span>
-</div>
-<p class="font-body-lg text-body-lg text-on-surface italic leading-relaxed">
-              “From first concept sketch to final stone placement, Haven delivered pure luxury and absolute peace of mind. A rare standard of craftsmanship.”
-            </p>
-</div>
-<div class="pt-space-md mt-space-md border-t border-surface-variant/40">
-<p class="font-headline-sm text-body-lg text-on-surface">Elena Rostova</p>
-<p class="font-label-md text-label-md text-on-surface-variant">Modernist Residence, Unley</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- SECTION 6: CONTACT & CONSULTATION -->
-<section class="w-full py-space-2xl bg-surface-container-lowest/60 relative" id="contact">
-<div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop">
-<div class="max-w-2xl mb-space-xl">
-<div class="inline-flex items-center gap-space-xs text-secondary font-label-caps text-label-caps tracking-widest uppercase mb-space-xs">
-<span class="material-symbols-outlined text-body-md">edit_calendar</span>
-<span class="">Consultation Enquiries</span>
-</div>
-<h2 class="font-headline-xl text-headline-lg lg:text-headline-xl text-on-surface tracking-tight">
-          Begin Your Outdoor Transformation
-        </h2>
-<p class="font-body-lg text-body-lg text-on-surface-variant mt-2">
-          Reserve an on-site master planning consultation with our senior landscape architects.
-        </p>
-</div>
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-xl">
-<!-- Left Column: Contact Details + Stylized Map Element -->
-<div class="lg:col-span-5 flex flex-col justify-between gap-space-lg">
-<div class="space-y-space-md">
-<div class="flex items-start gap-space-sm">
-<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
-<span class="material-symbols-outlined">call</span>
-</div>
-<div>
-<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Studio Direct</p>
-<a class="font-headline-sm text-headline-sm text-on-surface hover:text-secondary transition-colors" href="tel:5557829364">(555) 782-9364</a>
-</div>
-</div>
-<div class="flex items-start gap-space-sm">
-<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-primary shrink-0">
-<span class="material-symbols-outlined">schedule</span>
-</div>
-<div>
-<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Practice Hours</p>
-<p class="font-body-lg text-body-lg text-on-surface">Monday – Friday: 8:00 AM – 5:30 PM</p>
-<p class="font-label-md text-label-md text-on-surface-variant">Saturday by appointment</p>
-</div>
-</div>
-<div class="flex items-start gap-space-sm">
-<div class="w-10 h-10 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary shrink-0">
-<span class="material-symbols-outlined">pin_drop</span>
-</div>
-<div>
-<p class="font-label-caps text-label-caps text-on-surface-variant uppercase">Service Regions</p>
-<p class="font-body-lg text-body-lg text-on-surface">Serving Premier Estates, Coastal Properties &amp; Hillside Sanctuaries</p>
-</div>
-</div>
-</div>
-<!-- Stylized Dark Map Preview Card -->
-<div class="rounded-2xl overflow-hidden bg-surface-container shadow-xl relative">
-<div class="w-full h-56 bg-cover bg-center" data-location="Adelaide, South Australia" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC3myVjH6SFzWeHnhkLeqwSuQgWewHX2sp9e-F5SSUp6_pbDRflgpo_y-J-WU2UBbNlBt047CCGNw921kMNKsVdMDfEjQtJv5xu96oiqvP1h9l3ZZjxzTOgbn8K4-wIjtJqr4ze4Q74ouFiRhMu13JInJXMnp277EJJisTEGIJJIq3_vJEyprcK85gTiX1Y2KluII5vf8RiHoLa0nsDJncvsYPlsve8zs8pvPaxZZ8n')"></div>
-<div class="absolute bottom-3 left-3 right-3 p-space-sm rounded-lg bg-surface-container-lowest/85 backdrop-blur-md flex items-center justify-between">
-<div class="flex items-center gap-space-xs">
-<span class="w-2.5 h-2.5 rounded-full bg-secondary"></span>
-<span class="font-label-md text-label-md text-on-surface">Head Studio &amp; Nursery Matrix</span>
-</div>
-<span class="font-label-caps text-label-caps text-on-surface-variant uppercase">Adelaide, SA</span>
-</div>
-</div>
-</div>
-<!-- Right Column: Interactive Consultation Form -->
-<div class="lg:col-span-7">
-<form class="p-space-lg lg:p-space-xl rounded-2xl bg-surface-container/80 backdrop-blur-xl shadow-2xl flex flex-col gap-space-md" id="consultation-form" onsubmit="event.preventDefault(); showConfirmation();">
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
-<div class="flex flex-col gap-1.5">
-<label class="font-label-md text-label-md text-on-surface font-medium" for="name">Full Name *</label>
-<input class="w-full px-space-sm py-2.5 rounded-lg bg-surface-container-low/70 text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-high focus:outline-none focus:ring-1 focus:ring-primary font-body-md text-body-md transition-all" id="name" placeholder="e.g. Alistair Ross" required="" type="text">
-</div>
-<div class="flex flex-col gap-1.5">
-<label class="font-label-md text-label-md text-on-surface font-medium" for="phone">Phone Number *</label>
-<input class="w-full px-space-sm py-2.5 rounded-lg bg-surface-container-low/70 text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-high focus:outline-none focus:ring-1 focus:ring-primary font-body-md text-body-md transition-all" id="phone" placeholder="(555) 000-0000" required="" type="tel">
-</div>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-space-md">
-<div class="flex flex-col gap-1.5">
-<label class="font-label-md text-label-md text-on-surface font-medium" for="address">Estate Address / Suburb *</label>
-<input class="w-full px-space-sm py-2.5 rounded-lg bg-surface-container-low/70 text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-high focus:outline-none focus:ring-1 focus:ring-primary font-body-md text-body-md transition-all" id="address" placeholder="e.g. Springfield Avenue" required="" type="text">
-</div>
-<div class="flex flex-col gap-1.5">
-<label class="font-label-md text-label-md text-on-surface font-medium" for="scope">Project Scope</label>
-<select class="w-full px-space-sm py-2.5 rounded-lg bg-surface-container-low/70 text-on-surface focus:bg-surface-container-high focus:outline-none focus:ring-1 focus:ring-primary font-body-md text-body-md transition-all" id="scope">
-<option class="bg-surface-container">Full Turnkey Masterplan ($50k+)</option>
-<option class="bg-surface-container">Architectural Hardscape &amp; Terraces</option>
-<option class="bg-surface-container">Pool, Water Feature &amp; Fire Lounge</option>
-<option class="bg-surface-container">Botanical Curated Planting &amp; Lighting</option>
-</select>
-</div>
-</div>
-<div class="flex flex-col gap-1.5">
-<label class="font-label-md text-label-md text-on-surface font-medium" for="message">Project Description &amp; Vision</label>
-<textarea class="w-full px-space-sm py-2.5 rounded-lg bg-surface-container-low/70 text-on-surface placeholder:text-on-surface-variant/50 focus:bg-surface-container-high focus:outline-none focus:ring-1 focus:ring-primary font-body-md text-body-md transition-all" id="message" placeholder="Detail your property topography, architectural vision, desired features, or key requirements..." rows="4"></textarea>
-</div>
-<button class="w-full inline-flex items-center justify-center gap-space-xs py-space-sm px-space-lg rounded-lg bg-gradient-to-r from-primary-container to-inverse-primary text-on-surface font-label-lg text-label-lg shadow-lg shadow-primary-container/25 hover:shadow-primary-container/40 hover:scale-[1.01] transition-all duration-300" type="submit">
-<span class="">Submit Design Request</span>
-<span class="material-symbols-outlined text-body-lg">send</span>
-</button>
-<!-- Success notification box -->
-<div class="hidden p-space-sm rounded-lg bg-secondary/15 text-secondary items-center gap-space-xs" id="form-success">
-<span class="material-symbols-outlined">check_circle</span>
-<span class="font-body-md text-body-md">Thank you. A landscape architect will contact you within 24 hours to schedule the initial on-site brief.</span>
-</div>
-</form>
-</div>
-</div>
-</div>
-</section>
-<!-- Interactive Scroll Behavior & Scroll-Spy Script -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#183b32">
+  <title>Haven Landscape Design | Luxury Landscaping & Outdoor Living in Charlotte, NC</title>
+  <meta name="description" content="Elevate your outdoors with custom landscape design, patios, hardscaping, lighting, drainage and outdoor living spaces by Haven Landscape Design in Charlotte, NC.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Haven Landscape Design | Your Outdoors. Beautifully Reimagined.">
+  <meta property="og:description" content="Thoughtful landscape design and exceptional outdoor living in Charlotte, North Carolina.">
+  <meta property="og:url" content="https://havenlandscape.design/">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1600&q=85">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"LandscapingBusiness","name":"Haven Landscape Design","url":"https://havenlandscape.design/","telephone":"+1-704-318-5199","email":"havenlandscapingdesign@gmail.com","logo":"https://havenlandscape.design/wp-content/uploads/havenlogo.png","address":{"@type":"PostalAddress","addressLocality":"Charlotte","addressRegion":"NC","addressCountry":"US"},"areaServed":["Charlotte, NC","Matthews, NC","Huntersville, NC","Concord, NC","Mint Hill, NC","Indian Trail, NC","Fort Mill, SC"],"hasMap":"https://www.google.com/maps/place/Haven+Landscape+Design/@35.149106,-80.849332,15z/data=!4m6!3m5!1s0x88569d3c42d18635:0x9ebf7f47521a4fef!8m2!3d35.149106!4d-80.849332!16s%2Fg%2F11q1pndp0w","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"17:00"}]}</script>
+  <style>
+    :root{--forest:#183b32;--dark:#102e27;--botanical:#244b3c;--sage:#a8b7a0;--ivory:#f7f5ef;--sand:#eae5da;--ink:#232923;--gold:#c4a574;--white:#fff;--body:#656e66;--serif:'Cormorant Garamond',Georgia,serif;--sans:'DM Sans',Arial,sans-serif;--container:1280px;--header:92px}
+    *,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:85px}body{margin:0;overflow-x:hidden;background:var(--ivory);color:var(--ink);font:400 16px/1.7 var(--sans);-webkit-font-smoothing:antialiased}body.menu-open,body.lightbox-open{overflow:hidden}img{max-width:100%;display:block}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:4px}::selection{background:var(--sage);color:var(--dark)}.container{width:min(var(--container),calc(100% - 100px));margin-inline:auto}.section{padding:116px 0}.eyebrow{display:inline-flex;align-items:center;gap:14px;margin:0 0 22px;font:700 10px/1.4 var(--sans);letter-spacing:.23em;text-transform:uppercase;color:#8b795e}.eyebrow::before{content:'';width:29px;height:1px;background:currentColor}.section-title{font:500 clamp(48px,5.4vw,79px)/.97 var(--serif);letter-spacing:-.035em;margin:0;color:var(--forest)}.section-title em,.hero h1 em,.banner h2 em{font-weight:400}.lead{font-size:16px;color:var(--body);max-width:560px}.btn{min-height:54px;padding:16px 27px;border:1px solid transparent;display:inline-flex;align-items:center;justify-content:center;gap:26px;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.13em;transition:background .25s,color .25s,border-color .25s,transform .25s;white-space:nowrap}.btn:hover{transform:translateY(-2px)}.btn-forest{background:var(--forest);color:white}.btn-forest:hover{background:#305b4a}.btn-light{background:#f7f5ef;color:var(--forest)}.btn-light:hover{background:white}.btn-outline-light{border-color:rgba(255,255,255,.7);color:white}.btn-outline-light:hover{background:white;color:var(--forest)}.btn-outline{border-color:#a9b4a9;color:var(--forest)}.btn-outline:hover{background:var(--forest);color:white}.arrow{font-size:19px;font-weight:400;line-height:1}.link-arrow{display:inline-flex;align-items:center;gap:30px;padding-bottom:10px;border-bottom:1px solid #9aa89c;font-size:11px;text-transform:uppercase;letter-spacing:.13em;font-weight:700;color:var(--forest);transition:gap .2s}.link-arrow:hover{gap:40px}.reveal{opacity:0;transform:translateY(20px);transition:opacity .8s ease,transform .8s ease}.reveal.visible{opacity:1;transform:translateY(0)}
+    /* navigation */
+    .site-header{position:fixed;z-index:100;inset:0 0 auto;height:var(--header);color:white;border-bottom:1px solid rgba(255,255,255,.23);transition:background .3s,box-shadow .3s,height .3s}.site-header.scrolled,.site-header.menu-active{height:78px;background:var(--ivory);color:var(--forest);border-bottom:1px solid #e4e5dc;box-shadow:0 8px 30px rgba(15,34,28,.07)}.nav-wrap{height:100%;width:min(1450px,calc(100% - 100px));margin:auto;display:flex;align-items:center;gap:30px}.brand{flex:0 0 auto;display:flex;align-items:center;width:205px}.brand img{width:100%;max-height:64px;object-fit:contain;object-position:left center;filter:brightness(0) invert(1);transition:filter .3s}.site-header.scrolled .brand img,.site-header.menu-active .brand img{filter:none}.nav-links{display:flex;align-items:center;justify-content:center;gap:clamp(17px,2.3vw,37px);margin-left:auto}.nav-links a{font-size:10px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;transition:opacity .2s}.nav-links a:hover{opacity:.65}.header-cta{margin-left:auto;color:var(--forest);background:var(--ivory);border-color:var(--ivory);min-height:46px;padding:12px 19px;font-size:10px}.site-header.scrolled .header-cta{background:var(--forest);color:white}.menu-toggle{display:none;background:none;border:0;padding:10px;color:inherit}.menu-toggle span{display:block;width:25px;height:2px;background:currentColor;margin:5px 0;transition:transform .2s}.mobile-panel{display:none}
+    /* hero */
+    .hero{min-height:760px;height:min(900px,100svh);position:relative;display:flex;align-items:center;color:white;background:var(--forest);isolation:isolate}.hero::before{content:'';position:absolute;inset:0;z-index:-2;background:url('https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=2200&q=85') center 55%/cover no-repeat}.hero::after{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(90deg,rgba(10,35,28,.8),rgba(10,35,28,.33) 66%,rgba(10,35,28,.08)),linear-gradient(0deg,rgba(5,25,19,.25),transparent 55%)}.hero-content{padding-top:100px;max-width:780px}.hero .eyebrow{color:#e4d5b5}.hero h1{font:500 clamp(70px,7.8vw,119px)/.89 var(--serif);letter-spacing:-.04em;max-width:780px;margin:0 0 30px}.hero p{max-width:520px;color:rgba(255,255,255,.88);font-size:16px;line-height:1.9;margin:0 0 37px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px}.hero-bottom{position:absolute;bottom:40px;left:0;right:0;display:flex;align-items:center;justify-content:space-between;color:#fff;font:600 10px var(--sans);text-transform:uppercase;letter-spacing:.19em}.hero-bottom span{display:flex;gap:14px;align-items:center}.hero-bottom .line{width:42px;height:1px;background:#fff}
+    /* intro */
+    .intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:clamp(60px,9vw,160px);align-items:center}.intro-visual{position:relative;padding:0 50px 58px 0}.intro-visual img{width:100%;height:630px;object-fit:cover}.intro-visual::after{content:'';position:absolute;z-index:-1;right:0;bottom:0;width:70%;height:70%;background:var(--sand)}.intro-number{position:absolute;bottom:78px;right:0;background:var(--forest);padding:27px 28px;color:white;font:500 45px var(--serif)}.intro-copy .section-title{margin-bottom:32px}.intro-copy p:not(.eyebrow){color:var(--body);line-height:2;margin-bottom:29px}.intro-copy .link-arrow{margin-top:14px}
+    /* services */
+    .services{background:#eaece5}.section-head{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:53px}.section-head .section-title{max-width:760px}.section-head .lead{max-width:350px;margin:0 0 8px}.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.service-card{position:relative;overflow:hidden;background:#254333;min-height:370px;color:#fff;isolation:isolate;display:flex;flex-direction:column;justify-content:end;padding:27px}.service-card:nth-child(1),.service-card:nth-child(6){grid-column:span 2}.service-card:nth-child(1){min-height:450px}.service-card img{position:absolute;inset:0;z-index:-2;width:100%;height:100%;object-fit:cover;transition:transform .65s}.service-card::after{content:'';position:absolute;z-index:-1;inset:0;background:linear-gradient(0deg,rgba(7,32,23,.93),rgba(7,32,23,.13) 75%)}.service-card:hover img{transform:scale(1.07)}.service-card small{font-size:10px;letter-spacing:.2em;color:#d8d1b9}.service-card h3{font:500 34px/.99 var(--serif);margin:11px 0 9px}.service-card p{font-size:12px;color:#e7e9e2;line-height:1.7;margin:0 0 14px;max-width:360px}.service-card .card-arrow{align-self:end;position:absolute;right:25px;bottom:28px;border:1px solid #ffffff80;border-radius:50%;width:36px;height:36px;display:grid;place-items:center;transition:background .2s}.service-card:hover .card-arrow{background:white;color:var(--forest)}.service-card h3,.service-card p{padding-right:31px}
+    /* portfolio */
+    .portfolio-heading{text-align:center;margin-bottom:49px}.portfolio-heading .eyebrow::before{display:none}.portfolio-heading .section-title{max-width:820px;margin:auto}.portfolio-grid{display:grid;grid-template-columns:1.22fr .78fr;gap:18px}.portfolio-left,.portfolio-right{display:grid;gap:18px}.portfolio-right{grid-template-rows:1fr 1fr}.project-tile{position:relative;overflow:hidden;display:block;min-height:320px;background:#d0d6ca;isolation:isolate;cursor:pointer;text-align:left;border:0;padding:0;color:white}.portfolio-left .project-tile{min-height:650px}.project-tile img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .6s}.project-tile::after{content:'';position:absolute;inset:0;background:linear-gradient(0deg,rgba(10,35,27,.75),transparent 60%)}.project-tile:hover img{transform:scale(1.06)}.project-caption{position:absolute;bottom:31px;left:32px;z-index:1}.project-caption small{font-size:10px;letter-spacing:.16em;text-transform:uppercase}.project-caption strong{display:block;font:500 37px/1 var(--serif);margin-top:10px}.portfolio-foot{display:flex;align-items:center;justify-content:space-between;gap:24px;margin-top:25px}.portfolio-foot p{color:#7a8178;font-size:12px;margin:0;max-width:590px}
+    /* why */
+    .why{background:var(--forest);color:white}.why-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:100px;align-items:center}.why .section-title{color:white}.why .eyebrow{color:var(--gold)}.why-intro p:not(.eyebrow){color:#cad6cd;max-width:400px;margin-top:30px}.why-features{display:grid;grid-template-columns:1fr 1fr;gap:0 36px}.why-feature{border-top:1px solid #ffffff3e;padding:28px 4px 33px}.why-feature .num{font:500 22px var(--serif);color:var(--gold)}.why-feature h3{font:500 31px var(--serif);margin:14px 0 8px}.why-feature p{color:#d0dbd1;font-size:13px;line-height:1.8;margin:0}
+    /* process */
+    .process-heading{text-align:center;max-width:740px;margin:0 auto 74px}.process-heading .eyebrow::before{display:none}.process-timeline{display:grid;grid-template-columns:repeat(4,1fr);position:relative;gap:32px}.process-timeline::before{content:'';position:absolute;top:29px;left:9%;width:82%;height:1px;background:#bac6b9}.process-step{position:relative}.process-dot{background:var(--ivory);width:60px;height:60px;border-radius:50%;border:1px solid #bac6b9;display:grid;place-items:center;color:var(--forest);font:500 26px var(--serif);margin-bottom:35px;position:relative;z-index:1}.process-step h3{font:500 31px/1.1 var(--serif);color:var(--forest);margin:0 0 12px}.process-step p{font-size:13px;color:var(--body);line-height:1.9;margin:0}
+    /* banner */
+    .banner{position:relative;isolation:isolate;min-height:550px;display:flex;align-items:center;text-align:center;color:white;background:var(--forest)}.banner::before{position:absolute;inset:0;content:'';z-index:-2;background:url('https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=2000&q=85') center/cover}.banner::after{position:absolute;inset:0;content:'';z-index:-1;background:rgba(8,36,27,.68)}.banner .eyebrow{color:#e5d5b7}.banner .eyebrow::before{display:none}.banner h2{font:500 clamp(55px,6vw,83px)/.95 var(--serif);letter-spacing:-.03em;max-width:870px;margin:0 auto 25px}.banner p{max-width:590px;margin:0 auto 30px;color:#eee;font-size:15px}
+    /* testimonial */
+    .testimonials{background:#f0f0e9}.reviews-head{text-align:center}.reviews-head .eyebrow::before{display:none}.reviews-shell{max-width:900px;margin:50px auto 35px;text-align:center;position:relative}.quote-mark{font:500 90px/.7 var(--serif);color:#b5bfae}.review{display:none}.review.active{display:block;animation:fadeIn .35s ease}.review blockquote{font:500 clamp(27px,3.2vw,43px)/1.25 var(--serif);color:var(--forest);margin:15px 0 20px}.review-author{font-size:11px;text-transform:uppercase;letter-spacing:.15em;font-weight:700}.review-nav{display:flex;align-items:center;justify-content:center;gap:20px;margin:28px 0}.review-nav button{border:1px solid #b5bfb3;background:transparent;border-radius:50%;width:46px;height:46px;color:var(--forest);font-size:23px}.review-nav button:hover{background:var(--forest);color:white}.review-count{font-size:11px;letter-spacing:.13em}.review-more{text-align:center}.review-more a{font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;border-bottom:1px solid var(--forest);padding-bottom:8px;color:var(--forest)}@keyframes fadeIn{from{opacity:.2}to{opacity:1}}
+    /* area */
+    .area-grid{display:grid;grid-template-columns:1fr 1fr;gap:85px;align-items:center}.area-copy .section-title{margin-bottom:26px}.area-copy .lead{line-height:1.9}.area-chips{display:flex;flex-wrap:wrap;gap:9px;margin:26px 0 32px}.area-chips span{border:1px solid #cbd3c8;padding:9px 15px;color:var(--forest);font-size:11px;font-weight:600}.area-map{height:450px;background:#deded4;box-shadow:17px 17px 0 #e5e8df}.area-map iframe{width:100%;height:100%;border:0}
+    /* contact */
+    .contact{background:#e8ece5}.contact-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:100px;align-items:start}.contact-copy .section-title{margin-bottom:28px}.contact-copy>p:not(.eyebrow){color:var(--body);max-width:430px}.contact-details{margin-top:45px}.contact-detail{display:flex;gap:18px;padding:20px 0;border-top:1px solid #cad3c8}.detail-symbol{display:grid;place-items:center;width:43px;height:43px;border:1px solid #aebcaf;border-radius:50%;color:var(--forest);flex-shrink:0}.contact-detail small{display:block;text-transform:uppercase;font-weight:700;letter-spacing:.14em;font-size:10px;color:#7b8c7d}.contact-detail a,.contact-detail span.value{display:block;color:var(--forest);font-size:15px;font-weight:600;margin-top:3px;overflow-wrap:anywhere}.contact-detail a:hover{text-decoration:underline}.form-panel{background:white;padding:45px 48px 40px;box-shadow:0 15px 55px #23432e0c}.form-panel h3{font:500 43px var(--serif);color:var(--forest);margin:0 0 26px}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:17px}.field{display:flex;flex-direction:column;gap:8px}.field.full{grid-column:1/-1}.field label{font-size:10px;text-transform:uppercase;font-weight:700;letter-spacing:.13em;color:#526456}.field input,.field select,.field textarea{width:100%;padding:13px 15px;border:1px solid #d9dfd7;background:#fbfcfa;border-radius:0;font-size:13px;color:var(--ink);min-height:48px;outline-color:var(--forest)}.field textarea{min-height:113px;resize:vertical}.form-submit{margin-top:20px;width:100%}.form-note{font-size:11px;color:#7c867c;margin:12px 0 0}.form-status{display:none;margin-top:12px;font-size:13px;color:#923e31;font-weight:600}.form-status.show{display:block}
+    /* footer */
+    .footer{background:var(--dark);color:#f5f5ef;padding:76px 0 28px}.footer-grid{display:grid;grid-template-columns:1.6fr .8fr 1fr 1.1fr;gap:60px}.footer-brand img{width:205px;max-height:80px;object-fit:contain;object-position:left center;filter:brightness(0) invert(1);margin-bottom:21px}.footer-brand p{font-size:13px;color:#b9c8bd;max-width:270px}.footer h4{font-size:11px;letter-spacing:.17em;text-transform:uppercase;margin:6px 0 26px;color:#e6d3af}.footer-links{list-style:none;padding:0;margin:0}.footer-links li{margin-bottom:11px}.footer-links a,.footer .footer-contact{color:#c3d1c6;font-size:13px;line-height:1.8;overflow-wrap:anywhere}.footer-links a:hover,.footer .footer-contact:hover{color:white;text-decoration:underline}.footer-bottom{border-top:1px solid #ffffff29;margin-top:57px;padding-top:25px;display:flex;align-items:center;justify-content:space-between;gap:24px;color:#a9bcae;font-size:11px}.footer-bottom a{text-decoration:underline}.floating-call{display:none}
+    /* lightbox */
+    .lightbox{position:fixed;z-index:200;inset:0;background:#071611ed;display:none;align-items:center;justify-content:center;flex-direction:column;padding:65px 24px 28px}.lightbox.open{display:flex}.lightbox img{max-height:76vh;max-width:min(1100px,94vw);width:auto;object-fit:contain}.lightbox p{color:white;margin-top:15px;text-align:center}.lightbox-close{position:absolute;top:18px;right:24px;border:0;background:transparent;color:white;font-size:35px;padding:5px 15px}
+    @media(max-width:1180px){.nav-wrap{width:calc(100% - 60px)}.container{width:calc(100% - 70px)}.nav-links{gap:17px}.brand{width:160px}.header-cta{padding:12px}.why-grid,.contact-grid{gap:60px}.service-grid{grid-template-columns:repeat(3,1fr)}.service-card:nth-child(1),.service-card:nth-child(6){grid-column:span 1}.service-card:nth-child(1){min-height:370px}}
+    @media(max-width:900px){:root{--header:76px}.nav-wrap{width:calc(100% - 40px)}.brand{width:175px}.nav-links{display:none}.header-cta{margin-left:auto}.menu-toggle{display:block}.mobile-panel{display:block;position:fixed;top:76px;left:0;right:0;background:var(--ivory);color:var(--forest);padding:20px 30px 32px;box-shadow:0 18px 30px #10291e21;visibility:hidden;opacity:0;transform:translateY(-8px);transition:opacity .25s,transform .25s,visibility .25s}.mobile-panel.open{visibility:visible;opacity:1;transform:translateY(0)}.mobile-panel a{display:block;padding:11px 0;border-bottom:1px solid #dce3d8;font:600 13px var(--sans)}.mobile-panel .btn{margin-top:20px;text-align:center}.intro-grid,.area-grid,.why-grid,.contact-grid{gap:50px}.intro-visual img{height:510px}.section{padding:88px 0}.service-grid{grid-template-columns:repeat(2,1fr)}.portfolio-left .project-tile{min-height:580px}.why-grid{grid-template-columns:1fr}.why-intro{max-width:650px}.contact-grid{grid-template-columns:1fr}.contact-copy .section-title{max-width:700px}.footer-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:640px){.container{width:calc(100% - 40px)}.section{padding:72px 0}.section-title{font-size:clamp(43px,12vw,61px)}.site-header{height:72px}.site-header.scrolled,.site-header.menu-active{height:72px}.brand{width:150px}.brand img{max-height:55px}.nav-wrap{width:calc(100% - 32px);gap:8px}.header-cta{min-height:39px;padding:10px 12px;letter-spacing:.04em;font-size:9px}.header-cta .arrow{display:none}.menu-toggle{padding:8px 2px 8px 9px}.mobile-panel{top:72px}.hero{height:auto;min-height:730px;min-height:100svh;max-height:none}.hero::before{background-position:58% center}.hero::after{background:linear-gradient(0deg,#102d27b3,#102d2766),linear-gradient(90deg,#102d2759,#102d2759)}.hero-content{padding-top:110px;padding-bottom:110px;text-align:center;display:flex;flex-direction:column;align-items:center}.hero .eyebrow{font-size:9px;letter-spacing:.16em}.hero .eyebrow::before{display:none}.hero h1{font-size:clamp(61px,15.2vw,87px);max-width:510px;margin-bottom:21px}.hero p{font-size:14px;line-height:1.85;margin-bottom:30px}.hero-actions{justify-content:center;flex-direction:column;width:min(100%,360px)}.hero-actions .btn{width:100%}.hero-bottom{bottom:20px;justify-content:center;font-size:9px}.hero-bottom>span:last-child{display:none}.intro-grid,.area-grid{grid-template-columns:1fr}.intro-visual{padding:0 28px 35px 0}.intro-visual img{height:430px}.intro-number{bottom:52px;font-size:36px;padding:20px}.intro-copy .section-title{margin-bottom:20px}.section-head{display:block;margin-bottom:34px}.section-head .lead{margin-top:22px}.service-grid{grid-template-columns:1fr;gap:13px}.service-card,.service-card:nth-child(1){min-height:385px}.service-card:nth-child(1),.service-card:nth-child(6){grid-column:auto}.service-card h3{font-size:33px}.portfolio-grid{grid-template-columns:1fr}.portfolio-left .project-tile{min-height:480px}.portfolio-right .project-tile{min-height:300px}.portfolio-foot{display:block}.portfolio-foot .btn{margin-top:20px}.why-features{grid-template-columns:1fr}.why-feature{padding:22px 0}.process-heading{margin-bottom:44px}.process-timeline{grid-template-columns:1fr;gap:25px}.process-timeline::before{top:0;bottom:0;left:29px;width:1px;height:auto}.process-step{display:grid;grid-template-columns:60px 1fr;column-gap:22px}.process-dot{grid-row:span 2;margin-bottom:0}.process-step h3{margin:2px 0 5px}.process-step p{grid-column:2}.banner{min-height:500px}.banner h2{font-size:clamp(52px,12vw,69px)}.review blockquote{font-size:29px}.area-map{height:350px;box-shadow:9px 9px 0 #e5e8df}.contact-details{margin-top:28px}.form-panel{padding:28px 20px}.form-panel h3{font-size:37px}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.footer-grid{grid-template-columns:1fr 1fr;gap:36px 25px}.footer-brand{grid-column:1/-1}.footer-bottom{flex-direction:column;align-items:start;gap:7px}.floating-call{display:flex;position:fixed;bottom:15px;right:15px;z-index:90;background:var(--forest);color:white;width:52px;height:52px;border-radius:50%;box-shadow:0 5px 21px #0004;align-items:center;justify-content:center;font-size:24px}}
+    @media(max-width:380px){.header-cta{font-size:8px;padding:9px}.brand{width:131px}.hero h1{font-size:58px}.footer-grid{grid-template-columns:1fr}.footer-brand{grid-column:auto}}
+    @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+  
+    /* Real project photography: responsive editorial grid */
+    .haven-work{background:#f2f0e9}.haven-work-intro{max-width:640px;margin:23px auto 0;color:#677469;font-size:15px;line-height:1.8}.haven-work-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-flow:row dense;gap:18px}.haven-work-card{position:relative;display:block;overflow:hidden;min-width:0;min-height:340px;aspect-ratio:1 / 1.04;border:0;background:#d7d9cd;padding:0;text-align:left;cursor:pointer;color:#fff;isolation:isolate}.haven-work-card:nth-child(1),.haven-work-card:nth-child(4){grid-column:span 2;aspect-ratio:1.65 / 1;min-height:420px}.haven-work-card:nth-child(6){aspect-ratio:1 / 1.04}.haven-work-card img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover;transition:transform .7s ease}.haven-work-card:nth-child(1) img{object-position:center 44%}.haven-work-card:nth-child(4) img{object-position:center 62%}.haven-work-card::after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(to top,rgba(11,36,28,.86),rgba(11,36,28,.08) 55%,transparent)}.haven-work-card:hover img,.haven-work-card:focus-visible img{transform:scale(1.055)}.haven-work-overlay{position:absolute;z-index:1;left:27px;right:24px;bottom:26px}.haven-work-overlay small{display:block;text-transform:uppercase;font-size:10px;letter-spacing:.17em;font-weight:700;color:#e4ece5}.haven-work-overlay strong{display:block;font:500 clamp(27px,3vw,39px)/1.02 var(--serif);margin:8px 0 12px}.haven-work-overlay>span{display:inline-flex;gap:16px;align-items:center;font-size:10px;letter-spacing:.12em;text-transform:uppercase;border-bottom:1px solid #ffffff70;padding-bottom:5px}.haven-work .portfolio-foot{padding-top:15px}.haven-work .portfolio-foot p{max-width:630px}@media(max-width:900px){.haven-work-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.haven-work-card:nth-child(1),.haven-work-card:nth-child(4){grid-column:span 2;aspect-ratio:1.7 / 1;min-height:350px}}@media(max-width:640px){.haven-work-grid{grid-template-columns:1fr;gap:15px}.haven-work-card,.haven-work-card:nth-child(1),.haven-work-card:nth-child(4),.haven-work-card:nth-child(6){grid-column:auto;aspect-ratio:1.22 / 1;min-height:315px}.haven-work-card:nth-child(1){min-height:365px}.haven-work-overlay{left:22px;right:20px;bottom:22px}.haven-work-overlay strong{font-size:33px}.haven-work-intro{font-size:14px}.haven-work .portfolio-foot{padding-top:5px}}
+</style>
+</head>
+<body>
+<header class="site-header" id="siteHeader">
+  <div class="nav-wrap">
+    <a class="brand" href="#home" aria-label="Haven Landscape Design, home"><img src="havenlogo.png" alt="Haven Landscape Design logo" onerror="this.style.display='none';this.parentNode.setAttribute('aria-label','Haven Landscape Design');this.parentNode.classList.add('logo-missing')"></a>
+    <nav class="nav-links" aria-label="Primary navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#why-haven">Why Haven</a><a href="#contact">Contact</a></nav>
+    <a class="btn header-cta" href="#contact">Get a Free Quote <span class="arrow" aria-hidden="true">↗</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobilePanel" aria-label="Open navigation menu"><span></span><span></span><span></span></button>
+  </div>
+  <nav class="mobile-panel" id="mobilePanel" aria-label="Mobile navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#why-haven">Why Haven</a><a href="#contact">Contact</a><a href="#contact" class="btn btn-forest">Request a Free Quote ↗</a></nav>
+</header>
+<main>
+<section class="hero" id="home" aria-labelledby="heroTitle"><div class="container"><div class="hero-content"><p class="eyebrow">Charlotte's Landscape Design Specialists</p><h1 id="heroTitle">Your Outdoors.<br><em>Beautifully</em> Reimagined.</h1><p>Transform your outdoor space into a personal retreat with thoughtful landscape design, beautiful hardscaping, and custom outdoor living solutions.</p><div class="hero-actions"><a href="#contact" class="btn btn-light">Start Your Transformation <span class="arrow" aria-hidden="true">↗</span></a><a href="#projects" class="btn btn-outline-light">Explore Our Work <span class="arrow" aria-hidden="true">↗</span></a></div></div></div><div class="container hero-bottom"><span><span class="line"></span>Inspired by nature. Designed for living.</span><span>Scroll to discover ↓</span></div></section>
+<section class="section intro" id="about"><div class="container intro-grid"><div class="intro-visual reveal"><img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=1000&q=85" loading="lazy" alt="Elegant residential outdoor living space with natural materials" onerror="this.src='https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1000&q=80'"><span class="intro-number" aria-hidden="true">H.</span></div><div class="intro-copy reveal"><p class="eyebrow">Welcome to Haven Landscape Design</p><h2 class="section-title">Outdoor Spaces <em>Designed to</em> Inspire.</h2><p>At Haven Landscape Design, we believe every outdoor space has the potential to become something extraordinary. Serving Charlotte, North Carolina, we combine thoughtful design, creative craftsmanship, and sustainable landscaping practices to create outdoor environments that feel as beautiful as they are functional.</p><p>From the first sketch to the finishing details, our approach is shaped around the way you want to live outside.</p><a href="#why-haven" class="link-arrow">Discover Our Approach <span class="arrow">↗</span></a></div></div></section>
+<section class="section services" id="services"><div class="container"><div class="section-head reveal"><div><p class="eyebrow">What We Do</p><h2 class="section-title">Exceptional Landscapes.<br><em>Thoughtfully Crafted.</em></h2></div><p class="lead">From beautiful first impressions to complete backyard retreats, every detail is designed with purpose.</p></div><div class="service-grid">
+<a href="#contact" class="service-card reveal"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1100&q=80" alt="Illustrative contemporary landscape design" loading="lazy"><small>01 / DESIGN</small><h3>Landscape Design</h3><p>Thoughtful outdoor environments that balance natural beauty with everyday functionality.</p><span class="card-arrow">↗</span></a>
+<a href="#contact" class="service-card reveal"><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80" alt="Illustrative natural stone hardscaping" loading="lazy"><small>02 / STRUCTURE</small><h3>Hardscaping</h3><p>Custom stonework and outdoor features with enduring character.</p><span class="card-arrow">↗</span></a>
+<a href="#contact" class="service-card reveal"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=900&q=80" alt="Illustrative outdoor patio and walkway design" loading="lazy"><small>03 / OUTDOOR LIVING</small><h3>Patios & Walkways</h3><p>Elegant spaces for connection, comfort, and everyday living.</p><span class="card-arrow">↗</span></a>
+<a href="#contact" class="service-card reveal"><img src="https://images.unsplash.com/photo-1600566753051-f0b89df2dd90?auto=format&fit=crop&w=900&q=80" alt="Illustrative architectural outdoor lighting" loading="lazy"><small>04 / AMBIENCE</small><h3>Landscape Lighting</h3><p>Thoughtful illumination that creates atmosphere after dark.</p><span class="card-arrow">↗</span></a>
+<a href="#contact" class="service-card reveal"><img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=900&q=80" alt="Illustrative lush green lawn and landscaping" loading="lazy"><small>05 / GREENERY</small><h3>Sod Installation</h3><p>A lush, inviting foundation for a beautiful landscape.</p><span class="card-arrow">↗</span></a>
+<a href="#contact" class="service-card reveal"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1100&q=80" alt="Illustrative elegant outdoor kitchen and gathering space" loading="lazy"><small>06 / ENTERTAINING</small><h3>Outdoor Kitchens & Fireplaces</h3><p>Purposeful gathering spaces for cooking, celebrating, and unwinding.</p><span class="card-arrow">↗</span></a>
+<a href="#contact" class="service-card reveal"><img src="https://images.unsplash.com/photo-1600566753104-685f4f24cb4d?auto=format&fit=crop&w=900&q=80" alt="Illustrative masonry and retaining wall details" loading="lazy"><small>07 / FOUNDATIONS</small><h3>Retaining Walls</h3><p>Structural landscape features designed to complement their setting.</p><span class="card-arrow">↗</span></a>
+<a href="#contact" class="service-card reveal"><img src="https://images.unsplash.com/photo-1600566752355-35792bedcfea?auto=format&fit=crop&w=900&q=80" alt="Illustrative landscaped residential property" loading="lazy"><small>08 / PROTECTION</small><h3>Drainage Solutions</h3><p>Smart water management to help protect your outdoor investment.</p><span class="card-arrow">↗</span></a>
+</div></div></section>
+<section class="section portfolio haven-work" id="projects" aria-labelledby="projectsHeading"><div class="container"><div class="portfolio-heading reveal"><p class="eyebrow">A closer look at our work</p><h2 class="section-title" id="projectsHeading">Landscapes in <em>the Making.</em></h2><p class="haven-work-intro">Explore real photographs shared for this portfolio, from thoughtful planting and front yard preparation to patios, walkways and landscape installations.</p></div><div class="haven-work-grid"><button class="haven-work-card reveal" type="button" data-gallery="0" aria-label="View larger photo: Front Garden Refresh"><img src="haven4.png" loading="lazy" decoding="async" alt="Mulched planting beds, edging and foundation plantings"><span class="haven-work-overlay"><small>Residential landscape / 01</small><strong>Front Garden Refresh</strong><span>View photo <span aria-hidden="true">↗</span></span></span></button><button class="haven-work-card reveal" type="button" data-gallery="1" aria-label="View larger photo: Landscape Layout Preparation"><img src="haven3.png" loading="lazy" decoding="async" alt="Site preparation and planting layout beside a privacy fence"><span class="haven-work-overlay"><small>Site preparation / 02</small><strong>Landscape Layout Preparation</strong><span>View photo <span aria-hidden="true">↗</span></span></span></button><button class="haven-work-card reveal" type="button" data-gallery="2" aria-label="View larger photo: Front Yard Groundwork"><img src="haven2.png" loading="lazy" decoding="async" alt="Residential frontage prepared for landscape improvements"><span class="haven-work-overlay"><small>Ground preparation / 03</small><strong>Front Yard Groundwork</strong><span>View photo <span aria-hidden="true">↗</span></span></span></button><button class="haven-work-card reveal" type="button" data-gallery="3" aria-label="View larger photo: Patio & Lawn Installation"><img src="haven1.png" loading="lazy" decoding="async" alt="Curved paver patio and fresh lawn in a backyard"><span class="haven-work-overlay"><small>Patios & lawns / 04</small><strong>Patio & Lawn Installation</strong><span>View photo <span aria-hidden="true">↗</span></span></span></button><button class="haven-work-card reveal" type="button" data-gallery="4" aria-label="View larger photo: Property Landscape Preparation"><img src="haven9.png" loading="lazy" decoding="async" alt="Graded front yard ready for next-stage landscape work"><span class="haven-work-overlay"><small>Property transformation / 05</small><strong>Property Landscape Preparation</strong><span>View photo <span aria-hidden="true">↗</span></span></span></button><button class="haven-work-card reveal" type="button" data-gallery="5" aria-label="View larger photo: Tree Planting & Care"><img src="haven8.png" loading="lazy" decoding="async" alt="Newly planted tree with fresh mulch and landscape work"><span class="haven-work-overlay"><small>Tree planting / 06</small><strong>Tree Planting & Care</strong><span>View photo <span aria-hidden="true">↗</span></span></span></button><button class="haven-work-card reveal" type="button" data-gallery="6" aria-label="View larger photo: Garden Planting Plan"><img src="haven7.png" loading="lazy" decoding="async" alt="Trees and shrubs positioned for a residential garden"><span class="haven-work-overlay"><small>Planting design / 07</small><strong>Garden Planting Plan</strong><span>View photo <span aria-hidden="true">↗</span></span></span></button><button class="haven-work-card reveal" type="button" data-gallery="7" aria-label="View larger photo: Stepping Stone Walkway"><img src="haven6.png" loading="lazy" decoding="async" alt="Installation of a stepping stone path alongside a home"><span class="haven-work-overlay"><small>Walkways / 08</small><strong>Stepping Stone Walkway</strong><span>View photo <span aria-hidden="true">↗</span></span></span></button><button class="haven-work-card reveal" type="button" data-gallery="8" aria-label="View larger photo: Landscape Installation"><img src="haven5.png" loading="lazy" decoding="async" alt="On-site crew tending to planting beds and shrubs"><span class="haven-work-overlay"><small>On-site work / 09</small><strong>Landscape Installation</strong><span>View photo <span aria-hidden="true">↗</span></span></span></button></div><div class="portfolio-foot"><p>These project and work-in-progress photographs show different landscape services and stages of installation. Individual projects may still be underway.</p><a class="btn btn-outline" href="#contact">Discuss Your Project <span class="arrow" aria-hidden="true">↗</span></a></div></div></section>
+<section class="section why" id="why-haven"><div class="container why-grid"><div class="why-intro reveal"><p class="eyebrow">The Haven Difference</p><h2 class="section-title">More Than Landscaping. <em>A Better Way to Live Outdoors.</em></h2><p>Beautiful landscapes begin with listening. We bring your vision, property, and lifestyle together in a setting that feels like your own.</p></div><div class="why-features"><div class="why-feature reveal"><span class="num">01 /</span><h3>Creative Excellence</h3><p>Designs that balance imagination, natural beauty, and practical functionality.</p></div><div class="why-feature reveal"><span class="num">02 /</span><h3>Local Expertise</h3><p>Landscape solutions informed by Charlotte's environment and regional needs.</p></div><div class="why-feature reveal"><span class="num">03 /</span><h3>Sustainable Practices</h3><p>Environmentally conscious approaches for healthy, beautiful outdoor spaces.</p></div><div class="why-feature reveal"><span class="num">04 /</span><h3>Comprehensive Service</h3><p>Attentive guidance from your first conversation through the finishing details.</p></div></div></div></section>
+<section class="section process" id="process"><div class="container"><div class="process-heading reveal"><p class="eyebrow">How We Work</p><h2 class="section-title">Your Vision, <em>Beautifully Brought to Life.</em></h2></div><div class="process-timeline"><div class="process-step reveal"><div class="process-dot">01</div><h3>Let's Connect</h3><p>Tell us about your outdoor space, goals, and design aspirations.</p></div><div class="process-step reveal"><div class="process-dot">02</div><h3>Explore the Possibilities</h3><p>We discuss your ideas and develop a direction for your landscape transformation.</p></div><div class="process-step reveal"><div class="process-dot">03</div><h3>Bring the Vision to Life</h3><p>Our team works to turn your planned outdoor design into a functional, beautiful space.</p></div><div class="process-step reveal"><div class="process-dot">04</div><h3>Enjoy Your Haven</h3><p>Experience an outdoor environment designed for lasting enjoyment.</p></div></div></div></section>
+<section class="banner" aria-labelledby="bannerTitle"><div class="container reveal"><p class="eyebrow">A Beautiful Beginning</p><h2 id="bannerTitle">The Outdoor Space You've Always Imagined <em>Starts Here.</em></h2><p>From peaceful garden retreats to beautiful spaces made for entertaining, discover what's possible with Haven Landscape Design.</p><a href="#contact" class="btn btn-light">Request Your Free Quote <span class="arrow">↗</span></a></div></section>
+<section class="section testimonials" id="reviews"><div class="container"><div class="reviews-head reveal"><p class="eyebrow">Kind Words</p><h2 class="section-title">Spaces That Inspire. <em>Experiences That Matter.</em></h2></div><div class="reviews-shell reveal"><div class="quote-mark" aria-hidden="true">“</div><div class="review active"><blockquote>“Working with Haven Landscape Design was an amazing experience from start to finish. They completely transformed our yard with their landscape design ideas.”</blockquote><span class="review-author">Tanner Compton · Published customer review excerpt</span></div><div class="review"><blockquote>“Daniel and his team have been wonderful to work with—professional, communicative, and always attentive with follow-ups and warranty service when needed.”</blockquote><span class="review-author">Johnny Heath · Published customer review excerpt</span></div><div class="review"><blockquote>“Daniel was prompt in his communication and honest. His team completed the job on time and did a great job.”</blockquote><span class="review-author">Jacob Valladares · Published customer review excerpt</span></div><div class="review-nav"><button type="button" id="reviewPrev" aria-label="Previous review">←</button><span class="review-count" id="reviewCount">01 / 03</span><button type="button" id="reviewNext" aria-label="Next review">→</button></div></div><div class="review-more"><a href="https://www.google.com/maps/place/Haven+Landscape+Design/@35.149106,-80.849332,15z/data=!4m6!3m5!1s0x88569d3c42d18635:0x9ebf7f47521a4fef!8m2!3d35.149106!4d-80.849332!16s%2Fg%2F11q1pndp0w" target="_blank" rel="noopener noreferrer">Read More Client Reviews ↗</a></div></div></section>
+<section class="section area" id="service-area"><div class="container area-grid"><div class="area-copy reveal"><p class="eyebrow">Proudly Serving Our Community</p><h2 class="section-title">Beautiful Outdoor Living <em>Across Charlotte.</em></h2><p class="lead">Haven Landscape Design serves homeowners throughout the greater Charlotte region, delivering thoughtful landscaping and outdoor living solutions to the communities we call home.</p><div class="area-chips"><span>Charlotte</span><span>Matthews</span><span>Huntersville</span><span>Concord</span><span>Mint Hill</span><span>Pineville</span><span>Indian Trail</span><span>Fort Mill</span></div><a href="https://www.google.com/maps/place/Haven+Landscape+Design/@35.149106,-80.849332,15z/data=!4m6!3m5!1s0x88569d3c42d18635:0x9ebf7f47521a4fef!8m2!3d35.149106!4d-80.849332!16s%2Fg%2F11q1pndp0w" target="_blank" rel="noopener noreferrer" class="link-arrow">View Our Location <span class="arrow">↗</span></a></div><div class="area-map reveal"><iframe title="Map showing Haven Landscape Design in Charlotte, North Carolina" src="https://www.google.com/maps?q=35.149106,-80.849332&z=12&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe></div></div></section>
+<section class="section contact" id="contact"><div class="container contact-grid"><div class="contact-copy reveal"><p class="eyebrow">Let's Create Something Beautiful</p><h2 class="section-title">Tell Us About Your <em>Dream Outdoor Space.</em></h2><p>Ready to reimagine your landscape? Share your ideas with Haven Landscape Design and take the first step toward a beautiful outdoor transformation.</p><div class="contact-details"><div class="contact-detail"><span class="detail-symbol" aria-hidden="true">☎</span><div><small>Call Us</small><a href="tel:+17043185199">(704) 318-5199</a></div></div><div class="contact-detail"><span class="detail-symbol" aria-hidden="true">✉</span><div><small>Email Us</small><a href="mailto:havenlandscapingdesign@gmail.com">havenlandscapingdesign@gmail.com</a></div></div><div class="contact-detail"><span class="detail-symbol" aria-hidden="true">⌖</span><div><small>Our Location</small><span class="value">Charlotte, North Carolina</span></div></div></div></div><div class="form-panel reveal"><h3>Let's Talk About Your Project</h3><form id="quoteForm" method="post" novalidate><div class="form-grid"><div class="field"><label for="fullName">Full Name *</label><input id="fullName" name="full_name" autocomplete="name" required minlength="2" placeholder="Your full name"></div><div class="field"><label for="email">Email Address *</label><input id="email" type="email" name="email" autocomplete="email" required placeholder="you@example.com"></div><div class="field"><label for="phone">Phone Number *</label><input id="phone" type="tel" name="phone" autocomplete="tel" required pattern="[0-9()+.\-\s]{7,25}" placeholder="(704) 555-0123"></div><div class="field"><label for="location">Property Location *</label><input id="location" name="property_location" required placeholder="City or neighborhood"></div><div class="field full"><label for="service">Service Interested In *</label><select id="service" name="service" required><option value="" selected disabled>Select a service</option><option>Landscape Design</option><option>Hardscaping</option><option>Patios & Walkways</option><option>Landscape Lighting</option><option>Sod Installation</option><option>Outdoor Kitchens & Fireplaces</option><option>Retaining Walls</option><option>Drainage Solutions</option><option>Complete Outdoor Transformation</option><option>Not Sure Yet</option></select></div><div class="field full"><label for="message">Tell Us About Your Project *</label><textarea id="message" name="message" required minlength="10" placeholder="Tell us a little about your outdoor space, ideas and goals..."></textarea></div></div><button type="submit" class="btn btn-forest form-submit" id="submitQuote">Request My Free Quote <span class="arrow">↗</span></button><p class="form-note">Your information will only be used to respond to your project inquiry. No spam.</p><p class="form-status" id="formStatus" role="status" aria-live="polite"></p></form></div></div></section>
+</main>
+<footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="#home"><img src="havenlogo.png" alt="Haven Landscape Design logo"></a><p>Thoughtfully crafted landscapes and beautiful outdoor living experiences in Charlotte, North Carolina.</p></div><div><h4>Explore</h4><ul class="footer-links"><li><a href="#home">Home</a></li><li><a href="#about">About Haven</a></li><li><a href="#services">Our Services</a></li><li><a href="#projects">Projects</a></li><li><a href="#why-haven">Why Haven</a></li><li><a href="#contact">Contact Us</a></li></ul></div><div><h4>Our Expertise</h4><ul class="footer-links"><li><a href="#services">Landscape Design</a></li><li><a href="#services">Hardscaping</a></li><li><a href="#services">Patios & Walkways</a></li><li><a href="#services">Outdoor Living</a></li><li><a href="#services">Landscape Lighting</a></li><li><a href="#services">Drainage Solutions</a></li></ul></div><div><h4>Get In Touch</h4><p><a href="tel:+17043185199" class="footer-contact">(704) 318-5199</a></p><p><a href="mailto:havenlandscapingdesign@gmail.com" class="footer-contact">havenlandscapingdesign@gmail.com</a></p><p class="footer-contact">Charlotte, North Carolina</p><p><a class="footer-contact" target="_blank" rel="noopener noreferrer" href="https://www.google.com/maps/place/Haven+Landscape+Design/@35.149106,-80.849332,15z/data=!4m6!3m5!1s0x88569d3c42d18635:0x9ebf7f47521a4fef!8m2!3d35.149106!4d-80.849332!16s%2Fg%2F11q1pndp0w">Find Us on Google Maps ↗</a></p></div></div><div class="footer-bottom"><span>© <span id="year"></span> Haven Landscape Design. All rights reserved.</span><span>Designed around nature. Made for living.</span></div></div></footer>
+<a class="floating-call" href="tel:+17043185199" aria-label="Call Haven Landscape Design">☎</a>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Landscape project photo preview" aria-hidden="true"><button type="button" class="lightbox-close" id="lightboxClose" aria-label="Close preview">×</button><img id="lightboxImage" src="" alt=""><p id="lightboxCaption"></p></div>
 <script>
-    // 1. Scroll Progress Bar
-    window.addEventListener('scroll', () => {
-      const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
-      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-      const scrolled = (winScroll / height) * 100;
-      const progress = document.getElementById('scroll-progress');
-      if (progress) {
-        progress.style.width = scrolled + '%';
-      }
-    });
-
-    // 2. Form submission micro-interaction
-    function showConfirmation() {
-      const successBox = document.getElementById('form-success');
-      if (successBox) {
-        successBox.classList.remove('hidden');
-        successBox.classList.add('flex');
-      }
-    }
-
-    // 3. Intersection Observer for Header Navigation Active State
-    const navLinks = document.querySelectorAll('header nav a');
-    const sections = document.querySelectorAll('section[id]');
-    
-    if (sections.length > 0 && navLinks.length > 0) {
-      const observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const id = entry.target.getAttribute('id');
-            navLinks.forEach((link) => {
-              if (link.getAttribute('href') === '#' + id) {
-                link.classList.add('text-secondary');
-                link.classList.remove('text-on-surface-variant');
-              } else {
-                link.classList.remove('text-secondary');
-                link.classList.add('text-on-surface-variant');
-              }
-            });
-          }
-        });
-      }, { rootMargin: '-20% 0px -70% 0px' });
-
-      sections.forEach((sec) => observer.observe(sec));
-    }
-  </script>
-</div></main><footer class="w-full bg-surface-container-lowest py-space-xl"><div class="w-full max-w-7xl mx-auto px-margin md:px-margin-desktop"><div class="grid grid-cols-1 md:grid-cols-4 gap-space-lg mb-space-xl"><div class="space-y-space-sm md:col-span-2"><div class="flex items-center gap-space-xs"><div class="w-7 h-7 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary"><span class="material-symbols-outlined text-body-md">nature</span></div><span class="font-headline-sm text-headline-sm text-on-surface">Haven</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-md">Architectural landscape design merging ecological balance with refined structural minimalism. Creating living sanctuaries that evolve across seasons.</p></div><div><h4 class="font-label-caps text-label-caps uppercase text-secondary mb-space-sm">Architecture</h4><ul class="space-y-space-xs font-body-md text-body-md text-on-surface-variant"><li class=""><a class="hover:text-on-surface transition-colors" href="#services">Master Planning</a></li><li class=""><a class="hover:text-on-surface transition-colors" href="#services">Biophilic Integration</a></li><li class=""><a class="hover:text-on-surface transition-colors" href="#services">Botanical Curation</a></li><li class=""><a class="hover:text-on-surface transition-colors" href="#showcase">Material Matrix</a></li></ul></div><div><h4 class="font-label-caps text-label-caps uppercase text-secondary mb-space-sm">Studio</h4><ul class="space-y-space-xs font-body-md text-body-md text-on-surface-variant"><li class=""><a class="hover:text-on-surface transition-colors" href="#about">Philosophy</a></li><li class=""><a class="hover:text-on-surface transition-colors" href="#reviews">Client Journals</a></li><li class=""><a class="hover:text-on-surface transition-colors" href="#contact">Site Enquiries</a></li><li class=""><a class="hover:text-on-surface transition-colors" href="#consultation">Consultation</a></li></ul></div></div><div class="flex flex-col sm:flex-row items-center justify-between pt-space-md gap-space-sm"><span class="font-body-md text-body-md text-on-surface-variant">© 2025 Haven Landscape Architecture Studio. All rights reserved.</span><div class="flex items-center gap-space-md font-label-md text-label-md text-on-surface-variant"><a class="hover:text-on-surface transition-colors" href="#">Environmental Codex</a><a class="hover:text-on-surface transition-colors" href="#">Privacy Policy</a><a class="hover:text-on-surface transition-colors" href="#">Terms of Practice</a></div></div></div></footer>
-
-</body></html>
+'use strict';
+const header=document.getElementById('siteHeader'),menuToggle=document.getElementById('menuToggle'),mobilePanel=document.getElementById('mobilePanel');
+function updateHeader(){header.classList.toggle('scrolled',window.scrollY>30)}window.addEventListener('scroll',updateHeader,{passive:true});updateHeader();
+function closeMenu(){mobilePanel.classList.remove('open');header.classList.remove('menu-active');menuToggle.setAttribute('aria-expanded','false');menuToggle.setAttribute('aria-label','Open navigation menu');document.body.classList.remove('menu-open')}
+menuToggle.addEventListener('click',()=>{const open=!mobilePanel.classList.contains('open');mobilePanel.classList.toggle('open',open);header.classList.toggle('menu-active',open);menuToggle.setAttribute('aria-expanded',String(open));menuToggle.setAttribute('aria-label',open?'Close navigation menu':'Open navigation menu');document.body.classList.toggle('menu-open',open)});
+mobilePanel.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));window.addEventListener('resize',()=>{if(window.innerWidth>900)closeMenu()});
+if('IntersectionObserver'in window){const io=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');io.unobserve(entry.target)}})},{threshold:.08,rootMargin:'0px 0px 30px 0px'});document.querySelectorAll('.reveal').forEach(el=>io.observe(el))}else{document.querySelectorAll('.reveal').forEach(el=>el.classList.add('visible'))}
+const reviews=[...document.querySelectorAll('.review')],reviewCount=document.getElementById('reviewCount');let reviewIndex=0;function changeReview(shift){reviews[reviewIndex].classList.remove('active');reviewIndex=(reviewIndex+shift+reviews.length)%reviews.length;reviews[reviewIndex].classList.add('active');reviewCount.textContent=`${String(reviewIndex+1).padStart(2,'0')} / ${String(reviews.length).padStart(2,'0')}`};document.getElementById('reviewPrev').addEventListener('click',()=>changeReview(-1));document.getElementById('reviewNext').addEventListener('click',()=>changeReview(1));
+const lightbox=document.getElementById('lightbox'),lightboxImage=document.getElementById('lightboxImage'),lightboxCaption=document.getElementById('lightboxCaption'),lightboxClose=document.getElementById('lightboxClose');let previousFocus=null;document.querySelectorAll('[data-gallery]').forEach(tile=>tile.addEventListener('click',()=>{previousFocus=document.activeElement;const img=tile.querySelector('img');lightboxImage.src=img.currentSrc||img.src;lightboxImage.alt=img.alt;lightboxCaption.textContent=tile.querySelector('strong').textContent;lightbox.classList.add('open');lightbox.setAttribute('aria-hidden','false');document.body.classList.add('lightbox-open');lightboxClose.focus()}));function closeLightbox(){lightbox.classList.remove('open');lightbox.setAttribute('aria-hidden','true');document.body.classList.remove('lightbox-open');lightboxImage.removeAttribute('src');if(previousFocus)previousFocus.focus()}lightboxClose.addEventListener('click',closeLightbox);lightbox.addEventListener('click',e=>{if(e.target===lightbox)closeLightbox()});document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeLightbox();closeMenu()}if(e.key==='Tab'&&lightbox.classList.contains('open')){e.preventDefault();lightboxClose.focus()}});
+document.getElementById('year').textContent=new Date().getFullYear();
+/* INTEGRATION: Replace the empty endpoint below with your verified, CORS-enabled CRM/automation endpoint. Do not put secret API keys in client-side HTML. If your CRM requires a private key, POST to your own secure server which forwards the submission. */
+const FORM_ENDPOINT='';
+const form=document.getElementById('quoteForm'),status=document.getElementById('formStatus'),submitBtn=document.getElementById('submitQuote');form.addEventListener('submit',async event=>{event.preventDefault();status.classList.remove('show');if(!form.checkValidity()){form.reportValidity();return}if(!FORM_ENDPOINT){status.textContent='The online inquiry form is not connected yet. Please call (704) 318-5199 or email havenlandscapingdesign@gmail.com to request your quote.';status.classList.add('show');return}const payload=Object.fromEntries(new FormData(form).entries());submitBtn.disabled=true;submitBtn.textContent='Sending...';try{const response=await fetch(FORM_ENDPOINT,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});if(!response.ok)throw new Error('Submission unsuccessful');status.textContent='Thank you! Your inquiry was sent successfully. We look forward to speaking with you.';status.style.color='#1e6944';status.classList.add('show');form.reset()}catch(err){status.textContent='Your message could not be sent. Please call or email us directly.';status.style.color='#923e31';status.classList.add('show')}finally{submitBtn.disabled=false;submitBtn.innerHTML='Request My Free Quote <span class="arrow">↗</span>'}});
+</script>
+</body>
+</html>
